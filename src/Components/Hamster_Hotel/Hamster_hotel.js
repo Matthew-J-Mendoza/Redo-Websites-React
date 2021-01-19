@@ -6,8 +6,13 @@ import {
   Link
 } from "react-router-dom";
 
+
+import {HHnav} from "./HHcomponents/hhNavBar"
 export const HamsterHotel =()=>{
     return(
-        <h1>Hamster Hotel</h1>
+        <div>
+          <HHnav/>
+          
+        </div>
     )
 }

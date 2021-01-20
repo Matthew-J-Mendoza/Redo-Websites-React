@@ -1,3 +1,72 @@
 .navlayout{
     background-color: #000324 !important;
 }
+.links{
+    margin-top: 4.3rem;
+    color: white !important;
+}
+.box{
+    border: #E5FEFF 2px solid;
+    width: 100%;
+}
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("./images/header.jpg");
+  
+    /* Set a specific height */
+    padding-bottom: 10%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    
+    background-size: cover;
+    position: relative;
+    background-position: 100% 60%;
+  }
+  .container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-text {
+  
+    margin-top: 5%;
+    color: #E5FEFF;
+    font-size: 90%;
+    background-color: #000324;
+    opacity: 0.8;
+    padding-top: 3% ;
+    padding-bottom: 5% ;
+    padding-right: 12.6%;
+    padding-left: 12.6%;
+    text-align: center;
+    
+  }
+
+.top-text{
+    font-size: 250%;
+    opacity: 1 !important;
+    line-height: 100%;
+}
+/*Welcome*/
+.welcome-paragraph{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+/* Rooms */
+.rooms-background{
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-position: 100% 90%;
+    
+    
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.room-card-btn{
+    padding-left: 15%;
+    padding-right: 15%;
+    border-radius: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #004CC7 !important;
+}

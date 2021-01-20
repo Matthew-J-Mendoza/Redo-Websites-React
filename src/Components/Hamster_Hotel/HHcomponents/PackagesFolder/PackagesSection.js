@@ -17,12 +17,21 @@ export const PackagesSection =()=>{
                     <Col lg={6}>
                     <PackageDetail title="Beach Wedding Package" price="Starting US $1,500.00" desc='Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9\" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.'/>
                     </Col>
-                    <Col lg={6}>
+                </Row>
+
+                <Row>
+
+                    <Col lg={6} xs={{order: "last"}} lg={{order: "first"}}>
                     <PackageDetail title="Full Bloom Package" price="Starting US $1,000.00" desc="Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians."/>
                     </Col>
-                    <Col lg={6}>
+
+                    <Col lg={6} >
                     <img src={spring} className="package-img"/>
                     </Col>
+                </Row>
+
+                <Row>
+
                     <Col lg={6}>
                     <img src={cheese} className="package-img"/>
                     </Col>

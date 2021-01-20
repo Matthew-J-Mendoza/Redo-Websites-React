@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 import {HHnav} from "./HHcomponents/hhNavBar"
@@ -14,6 +15,7 @@ import { Rooms } from "./HHcomponents/RoomFolder/RoomsSection";
 import { PackagesSection } from "./HHcomponents/PackagesFolder/PackagesSection";
 import { AmenitiesSection } from "./HHcomponents/Amenities/Amenities";
 import { ReserveSection } from "./HHcomponents/Reserve/Reserve";
+import { FooterHH } from "./HHcomponents/Footer";
 export const HamsterHotel =()=>{
     return(
         <div>
@@ -24,6 +26,7 @@ export const HamsterHotel =()=>{
           <PackagesSection/>
           <AmenitiesSection/>
           <ReserveSection/>
+          <FooterHH/>
         </div>
     )
 }

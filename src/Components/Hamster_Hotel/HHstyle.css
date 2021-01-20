@@ -147,3 +147,22 @@
 .reserve-input{
     border-radius: 0%;
 }
+/* Footer */
+.end-text{
+    text-align: center;
+    color: #E5FEFF;
+}
+.end-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.end-container{
+    background-color: #000324;
+    display: flex;
+    justify-content: center;
+    color:#E5FEFF;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}

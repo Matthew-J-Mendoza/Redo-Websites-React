@@ -11,6 +11,9 @@ import {HHnav} from "./HHcomponents/hhNavBar"
 import {ImgHero} from "./HHcomponents/Hero"
 import {Welcome} from "./HHcomponents/welcomeSection"
 import { Rooms } from "./HHcomponents/RoomFolder/RoomsSection";
+import { PackagesSection } from "./HHcomponents/PackagesFolder/PackagesSection";
+import { AmenitiesSection } from "./HHcomponents/Amenities/Amenities";
+import { ReserveSection } from "./HHcomponents/Reserve/Reserve";
 export const HamsterHotel =()=>{
     return(
         <div>
@@ -18,6 +21,9 @@ export const HamsterHotel =()=>{
           <ImgHero/>
           <Welcome/>
           <Rooms/>
+          <PackagesSection/>
+          <AmenitiesSection/>
+          <ReserveSection/>
         </div>
     )
 }

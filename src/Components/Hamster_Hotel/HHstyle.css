@@ -34,8 +34,7 @@
     margin-top: 5%;
     color: #E5FEFF;
     font-size: 90%;
-    background-color: #000324;
-    opacity: 0.8;
+    background-color: rgb(0, 3, 36,.8);
     padding-top: 3% ;
     padding-bottom: 5% ;
     padding-right: 12.6%;
@@ -69,4 +68,82 @@
     border-radius: 0%;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #004CC7 !important;
+}
+
+/* Packages */
+.package-blue{
+    color: #1F51A8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 90%;
+}
+.package-img{
+   
+    width: 100%;
+    height: 85%;
+ }
+ /* amenities */
+ .amenities-background{
+    background-image: url(./images/bg.jpg) ;
+    background-size: cover;
+       background-position: 90% 85%;
+       display: flex;
+       
+   
+    padding-top: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+   }
+   .amenities-row-margin{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.amenities-desc{
+    padding-bottom: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}
+
+/* Reserve */
+.reserve-container{
+    
+    
+    
+    background-position: 40% 100%;
+    margin-top: 5%;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.reserve-mini-nav{
+    background-color: #000324;
+    color: white;
+    
+    padding-bottom: 5%;
+}
+.reserve-button{
+    width: 100%;
+    font-size: 1.04rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0%;
+}
+.reserve-button-col{
+    margin-top: 2.7%;
+}
+.reservebottom{
+    background-image: url(./images/hamsterreserve.jpg);
+    padding-bottom: 40%;
+    
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: 100% 75%;
+    
+    background-size: cover;
+    position: relative;
+}
+.reserve-input{
+    border-radius: 0%;
 }

@@ -9,14 +9,14 @@ export const RoomCard = (Props) => {
             <Card style={{ width: '26rem' }}>
                 <Card.Img variant="top" src={Props.img} />
                 <Card.Body>
-                    <h2 className="card-title">{Props.data.title}</h2>
+                    <h2 className="card-title Dosis">{Props.data.title}</h2>
                     <p className="card-text"><b>{Props.data.dimension}</b></p>
                     <Card.Text>
                         {Props.data.list.map(thing=>{
                             return <p className="card-text">{thing}</p>
                         })}
                     </Card.Text>
-                    <Button variant="primary" className={Props.align} >Reserve</Button>
+                    <Button variant="primary" className={Props.align} ><b>Reserve</b></Button>
                 </Card.Body>
             </Card>
         </div>

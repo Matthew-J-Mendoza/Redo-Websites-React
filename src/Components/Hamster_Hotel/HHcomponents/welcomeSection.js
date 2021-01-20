@@ -16,7 +16,7 @@ export const Welcome = () => {
                     <Col lg={8}>
                         <Row>
                             <Col lg={12}>
-                                <h1>Welcome to a hamster's paradise</h1>
+                                <h1 className="Dosis">Welcome to a hamster's paradise</h1>
                                 <br />
                             </Col>
                             <Col lg={12}>

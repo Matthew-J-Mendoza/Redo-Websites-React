@@ -1,9 +1,14 @@
 .navlayout{
     background-color: #000324 !important;
 }
+.Dosis{
+    font-family: 'Dosis', sans-serif;
+
+}
 .links{
     margin-top: 4.3rem;
     color: white !important;
+    font-family: 'Dosis', sans-serif;
 }
 .box{
     border: #E5FEFF 2px solid;
@@ -40,6 +45,7 @@
     padding-right: 12.6%;
     padding-left: 12.6%;
     text-align: center;
+    font-family: 'Dosis', sans-serif;
     
   }
 
@@ -51,8 +57,15 @@
 /*Welcome*/
 .welcome-paragraph{
     font-family: 'Source Sans Pro', sans-serif !important;
+    
 }
 /* Rooms */
+.room-header{
+    text-align: center;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+
+}
 .rooms-background{
     background-image: url(./images/bg2.jpg);
     background-size: cover;

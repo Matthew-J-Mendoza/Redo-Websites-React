@@ -11,22 +11,22 @@ export const AmenitiesSection = () =>{
             <Container fluid className="amenities-background">
                 <Row className="amenities-row-margin">
                     <Col className="text-center mb-5" lg={12}>
-                    <h1 className="mb-5">Amenities</h1>
+                    <h1 className="mb-5 Dosis">Amenities</h1>
                     <p>Here at La Petite Masion, we invite you to enjoy our services in hopes that you have the most
                     relaxing stay we can provide.</p>
                     
                     </Col>
                     <Col lg={3}>
-                    <Offers img={service24} txt="24 Hour Room Service" imgHeight="130rem"/>
+                    <Offers img={service24} txt="24 Hour Room Service" />
                     </Col>
                     <Col lg={3}>
-                    <Offers img={breakfast} txt="Complimentary Breakfast" imgHeight="130rem"/>
+                    <Offers img={breakfast} txt="Complimentary Breakfast"/>
                     </Col>
                     <Col lg={3}>
-                    <Offers img={valet} txt="Valet Parking" imgHeight="130rem"/>
+                    <Offers img={valet} txt="Valet Parking" />
                     </Col>
                     <Col lg={3}>
-                    <Offers img={pool} txt="Beachside Pool" imgHeight="130rem"/>
+                    <Offers img={pool} txt="Beachside Pool" />
                     </Col>
                 </Row>
             </Container>

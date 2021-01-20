@@ -8,7 +8,7 @@ import {QueensRoom, KingRoom, BeachSuit} from './CardData'
 export const Rooms = () =>{
     return(
         <div className="mt-5 rooms-background">
-            <h1 className="text-center text-light">Our Rooms</h1>
+            <h1 className="text-center text-light room-header">Our Rooms</h1>
             <Container>
                 <Row>
                     <Col lg={12}>

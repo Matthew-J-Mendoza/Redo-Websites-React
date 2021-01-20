@@ -1,22 +1,22 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 //Temp 
-import RoomImg from "../../images/room1.jpg"
 
 
-export const RoomCard = () => {
+
+export const RoomCard = (Props) => {
     return (
         <div className="d-flex justify-content-center mt-4">
             <Card style={{ width: '26rem' }}>
-                <Card.Img variant="top" src={RoomImg} />
+                <Card.Img variant="top" src={Props.img} />
                 <Card.Body>
-                    <h2 className="card-title">Queen Room</h2>
-                    <p className="card-text"><b>850 SQ FT room city view</b></p>
+                    <h2 className="card-title">{Props.data.title}</h2>
+                    <p className="card-text"><b>{Props.data.dimension}</b></p>
                     <Card.Text>
-                        <p>• One queen size bed</p>
-                        <p>• Seed Bar, fireplace and large blacony</p>
-                        <p>• Small kitchen with a refrigerator and stove</p>
+                        {Props.data.list.map(thing=>{
+                            return <p className="card-text">{thing}</p>
+                        })}
                     </Card.Text>
-                    <Button variant="primary" className="room-card-btn">Reserve</Button>
+                    <Button variant="primary" className={Props.align} >Reserve</Button>
                 </Card.Body>
             </Card>
         </div>

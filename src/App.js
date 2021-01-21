@@ -9,18 +9,21 @@ import {
 } from "react-router-dom";
 import {HubPage} from "./Components/HUB/Hub"
 import {HamsterHotel} from "./Components/Hamster_Hotel/Hamster_hotel"
-
+import {Two_Nerds} from './Components/Multi-Page/Two_Nerds'
+let Body = document.getElementById('body')
 function App() {
   return (
     <>
     <Router>
+    
+    
       <Switch>
 
         <Route exact path="/">
         <HubPage />
         </Route>
         <Route path="/Multi-Page">
-        
+        <Two_Nerds/>
         </Route>
         <Route path="/Hamster_Hotel">
         <HamsterHotel/>

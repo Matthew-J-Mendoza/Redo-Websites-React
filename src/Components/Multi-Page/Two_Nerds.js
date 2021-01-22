@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import {Choose} from './pages/index/WelcomePage'
 import './styleTG.css'
-
+import {GamePage} from "./pages/Game/Games"
 export class Two_Nerds extends React.Component{
 
   render(){
@@ -20,7 +20,9 @@ export class Two_Nerds extends React.Component{
           <Route exact path="/Multi-Page/">
           <Choose/>
           </Route>
-  
+          <Route path="/Multi-Page/Games">
+          <GamePage/>
+          </Route>
   
   
         </Router>

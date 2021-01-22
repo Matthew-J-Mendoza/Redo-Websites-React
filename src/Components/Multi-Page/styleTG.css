@@ -45,4 +45,37 @@
     font-size: 350%;
     border-radius: 70px;
   }
+  /* Main Menu */
+  .nav-link{
+    
+    font-size: 160%;
+  }
+  /* Cards */
+  .cardimg{
+    height: 40%;
+    width: 100%;
+   }
+   .cardBGColor{
+    background-color : #B7B3B3;
+  }
   
+  .cardTitleText{
+    font-size: 350%;
+    
+  }
+  .card-text{
+    text-align: left;
+    padding-bottom: 10%;
+  }
+  
+  .cardbtn{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 150%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .card{
+    box-shadow: 0px 10px 10px rgb(46, 46, 46);
+  }

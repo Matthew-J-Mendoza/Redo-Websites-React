@@ -1,8 +1,8 @@
 import {Container,Row,Col} from 'react-bootstrap';
 import {RoomCard} from './Cards'
-import RoomImg1 from "../../images/room1.jpg"
-import RoomImg2 from "../../images/room3.jpg"
-import RoomImg3 from "../../images/room2.jpg"
+import RoomImg1 from "../../../images/hhImages/room1.jpg"
+import RoomImg2 from "../../../images/hhImages/room3.jpg"
+import RoomImg3 from "../../../images/hhImages/room2.jpg"
 
 import {QueensRoom, KingRoom, BeachSuit} from './CardData'
 export const Rooms = () =>{

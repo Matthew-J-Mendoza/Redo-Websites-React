@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import {Offers} from './Offers'
-import service24 from '../../images/24hour.png'
-import breakfast from '../../images/breakfast.png'
-import valet from '../../images/valet.png'
-import pool from '../../images/pool.png'
+import service24 from '../../../images/hhImages/24hour.png'
+import breakfast from '../../../images/hhImages/breakfast.png'
+import valet from '../../../images/hhImages/valet.png'
+import pool from '../../../images/hhImages/pool.png'
 
 export const AmenitiesSection = () =>{
     return(

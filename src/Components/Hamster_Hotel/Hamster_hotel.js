@@ -8,14 +8,14 @@ import {
 import { Container, Row, Col } from 'react-bootstrap';
 
 
-import {HHnav} from "./HHcomponents/hhNavBar"
-import {ImgHero} from "./HHcomponents/Hero"
-import {Welcome} from "./HHcomponents/welcomeSection"
-import { Rooms } from "./HHcomponents/RoomFolder/RoomsSection";
-import { PackagesSection } from "./HHcomponents/PackagesFolder/PackagesSection";
-import { AmenitiesSection } from "./HHcomponents/Amenities/Amenities";
-import { ReserveSection } from "./HHcomponents/Reserve/Reserve";
-import { FooterHH } from "./HHcomponents/Footer";
+import {HHnav} from "./Others/hhNavBar"
+import {ImgHero} from "./Others/Hero"
+import {Welcome} from "./Welcome/welcomeSection"
+import { Rooms } from "./RoomFolder/RoomsSection";
+import { PackagesSection } from "./PackagesFolder/PackagesSection";
+import { AmenitiesSection } from "./Amenities/Amenities";
+import { ReserveSection } from "./Reserve/Reserve";
+import { FooterHH } from "./Others/Footer";
 export const HamsterHotel =()=>{
     return(
         <div>

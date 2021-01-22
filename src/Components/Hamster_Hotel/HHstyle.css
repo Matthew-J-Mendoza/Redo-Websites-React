@@ -16,7 +16,7 @@
 }
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("./images/header.jpg");
+    background-image: url("../../images/hhImages/header.jpg");
   
     /* Set a specific height */
     padding-bottom: 10%;
@@ -67,7 +67,7 @@
 
 }
 .rooms-background{
-    background-image: url(./images/bg2.jpg);
+    background-image: url(../../images/hhImages/bg2.jpg);
     background-size: cover;
     background-position: 100% 90%;
     
@@ -100,7 +100,7 @@
  }
  /* amenities */
  .amenities-background{
-    background-image: url(./images/bg.jpg) ;
+    background-image: url(../../images/hhImages/bg.jpg) ;
     background-size: cover;
        background-position: 90% 85%;
        display: flex;
@@ -151,7 +151,7 @@
     margin-top: 2.7%;
 }
 .reservebottom{
-    background-image: url(./images/hamsterreserve.jpg);
+    background-image: url(../../images/hhImages/hamsterreserve.jpg);
     padding-bottom: 40%;
     
 

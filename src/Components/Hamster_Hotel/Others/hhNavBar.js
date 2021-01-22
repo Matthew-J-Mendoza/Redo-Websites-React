@@ -2,7 +2,7 @@
 import { Navbar, Nav, NavDropdown,Container,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../HHstyle.css'
-import Logo from "../images/Logo.png"
+import Logo from "../../../images/hhImages/Logo.png"
 export const HHnav = () =>{
     return(
             <Navbar bg="dark" variant="dark" expand="lg" className="navlayout ">

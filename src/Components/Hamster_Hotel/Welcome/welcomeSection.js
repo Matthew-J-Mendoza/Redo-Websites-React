@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap"
-import hamsterhome from "../images/hamsterhome.jpg"
-import Finest from "../images/awardfinest.png"
-import Faction from "../images/awardsatisfaction.png"
-import Genuine from "../images/awardgenuine.png"
+import hamsterhome from "../../../images/hhImages/hamsterhome.jpg"
+import Finest from "../../../images/hhImages/awardfinest.png"
+import Faction from "../../../images/hhImages/awardsatisfaction.png"
+import Genuine from "../../../images/hhImages/awardgenuine.png"
 import {AwardImg} from "./awards"
 
 export const Welcome = () => {

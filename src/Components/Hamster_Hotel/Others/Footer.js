@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import Logo from '../images/Logo.png'
+import Logo from "../../../images/hhImages/Logo.png"
 
 
 export const FooterHH = () =>{

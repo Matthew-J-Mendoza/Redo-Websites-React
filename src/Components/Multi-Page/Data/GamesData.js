@@ -1,76 +1,70 @@
 
+//Thumbnail
+
 
 export const topGames = {
     DS3:{
         title: "Dark Souls 3",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
-        Author: "",
-        Review: ""
+        Author: "Chandler",
+        Review: "",
+        Tier: "2"
     },
-    BB:{
+    BloodBorne:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     WarFrame:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     Minecraft:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     RoR2:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     RL:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     GW2:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     },
     SS:{
         title: "",
         Pick: "",
-        Thumbnail: "",
-        Banner: "",
         Video: "",
         Author: "",
-        Review: ""
+        Review: "",
+        Tier: ""
     }
 }
 

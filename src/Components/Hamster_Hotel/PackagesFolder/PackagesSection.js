@@ -1,8 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import {PackageDetail} from './details'
-import wedding from '../../images/hamsterwedding.jpg'
-import spring from '../../images/hamsterspring.jpg'
-import cheese from '../../images/hamstercheese.jpg'
+import wedding from '../../../images/hhImages/hamsterwedding.jpg'
+import spring from '../../../images/hhImages/hamsterspring.jpg'
+import cheese from '../../../images/hhImages/hamstercheese.jpg'
 export const PackagesSection =()=>{
     return(
         <div>

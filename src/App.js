@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import React from 'react';
-
+import { DropdownButton,Dropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {Puppy_Restaruant} from "./Components/Puppy_restaruant/Puppy_Resturaunt"
 import {HubPage} from "./Components/HUB/Hub"
 import {HamsterHotel} from "./Components/Hamster_Hotel/Hamster_hotel"
 import {Two_Nerds} from './Components/Multi-Page/Two_Nerds'
@@ -43,14 +44,15 @@ class App extends React.Component {
           <Route path="/Hamster_Hotel" component={HamsterHotel}>
           
           </Route>
-          <Route path="/Puppy_Restaruant">
-  
-          </Route>
+          <Route path="/Puppy_Restaruant" component={Puppy_Restaruant}/>
+
+          
           <Route path="/Tokay_Press">
           </Route>
   
         </Switch>
       </Router>
+      
       </ div>
     )
   }

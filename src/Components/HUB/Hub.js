@@ -5,9 +5,9 @@ import {
     Route,
     Link
   } from "react-router-dom";
+  import './styleHUB.css'
   let body = document.getElementById('body')
-
-
+let LastPath = window.location.pathname;
 
 export const HubPage =()=>{
     return(
@@ -20,10 +20,15 @@ export const HubPage =()=>{
         </div>
     )
 }
+//This checks
 setInterval(function(){ 
-    if(window.location.pathname === '/'){
-      body.className="bg-light"
-    }else if(window.location.pathname.includes('/Multi-Page')){
-        body.className="bg-secondary"
+    
+      if(window.location.pathname === '/'){
+        body.className="bg-light"
+      }else if(window.location.pathname.includes('/Multi-Page')){
+          body.className="bg-secondary"
+      }else if(window.location.pathname.includes('/Puppy_Restaruant')){
+        body.className="Puppy_Resturant_BG"
     }
+   
    }, 100);

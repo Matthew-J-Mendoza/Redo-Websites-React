@@ -13,14 +13,14 @@ export const Rooms = () =>{
                 <Row>
                     <Col lg={12}>
                     <Row>
-                        <Col lg={4}>
-                        <RoomCard img={RoomImg1} data={QueensRoom} align='room-card-btn btn-align'/>
+                        <Col lg={4} className="">
+                        <RoomCard img={RoomImg1} data={QueensRoom} />
                         </Col>
-                        <Col lg={4}>
-                        <RoomCard img={RoomImg2} data={KingRoom} align='room-card-btn btn-align'/>
+                        <Col lg={4}  className="">
+                        <RoomCard img={RoomImg2} data={KingRoom} />
                         </Col>
-                        <Col lg={4}>
-                        <RoomCard img={RoomImg3} data={BeachSuit} align='room-card-btn'/>
+                        <Col lg={4}  className="">
+                        <RoomCard img={RoomImg3} data={BeachSuit} />
                         </Col>
                     </Row>
                     </Col>

@@ -1,0 +1,246 @@
+.webpageFormat{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+@font-face{
+    font-family: 'Montauk';
+    src: url('../../Fonts/Montauk-Regular.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Montauk';
+    src: url('../../Fonts/Montauk-Regular.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+.title{
+    background-color: white;
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35%;
+    background-image: url("../../images/prImages/cateringHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fugaz{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+.cat-text{
+    
+    background-color: white;
+    color: #5F002B;
+    font-size: 100.3%;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2.5%;
+    font-family: Montauk;
+    
+}
+
+.cat-gal1{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25%;
+    background-image: url("../../images/prImages/catering1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cat-gal2{
+    width: 100%;
+    height: auto;
+    
+    background-image: url("../../images/prImages/catering2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cat-gal3{
+    width: 100%;
+    height: auto;
+    
+    background-image: url("../../images/prImages/catering3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+Photos
+*/
+.photo-img{
+  border: white 10px solid;
+ margin-bottom: 5%;
+}
+
+.Pr-a{
+    color: #5F002B !important;
+    font-size: 1rem !important;
+}
+
+a:hover{
+    color: #5F002B;
+}
+
+.Footer-text{
+    font-family: Montauk;
+    color: #5F002B;
+}
+/*
+About us
+*/
+
+
+.dingus{
+    color: orange;
+}
+
+.textureMe{
+    background-image: url("../../images/prImages/bgtexture.jpg");
+}
+.white{
+    background-color: white;
+}
+.cardSpacing{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+}
+.montaukF{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 15px;
+}
+.fugazTitle{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+/*
+Index and menu page
+*/
+
+.indexFormat{
+    padding-left: 8.7rem;
+    padding-right: 8.7rem;
+}
+.indexBackground{
+    background-image: url("../../images/prImages/bgtexture.jpg");
+}
+
+.homeHero{
+    background-image: url("../../images/prImages/homeHero.jpg");
+    padding-bottom: 30%;
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+}
+
+ 
+
+.homeSingle{
+    background-image: url("../../images/prImages/homeSingle.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+
+.fugazeRegFont{
+    font-size:200%;
+   font-family:'Fugaz One', regular;
+   color:#5F002B;
+}
+.montaukRegFont{
+    font-family:'Montauk', regular;
+    color:#5F002B;
+}
+.transparentFont{
+    color:transparent
+}
+.muzzlesSandwichTitle{
+    font-size: 330%;
+    font-family:'Fugaz One', cursive;
+    color: #5F002B;
+    
+}
+.muzzlesSandwichText{
+
+ color:#5F002B;
+
+
+}
+.muzzlesSandwichImage{
+    display: flex;
+ 
+}
+.muzzlesSandwichCard{
+    width:350%;
+   margin-left: -67%;
+    
+    
+}
+.tripleImage{
+    display:flex;
+    /* object-fit:cover; */
+    margin-top:10%;
+    margin-right: -10%;
+   
+}
+.ourMenuBG{
+    background-color: #FFFFFF;
+    
+}
+.ourMenuCardBG{
+    background-color: transparent;
+    max-width: 100%;
+    
+}
+.menuImagesSize{
+    height:200px;
+}
+
+.list-group{
+    height:550px;
+}
+.Footer-text{
+    font-family: Montauk;
+    color: #5F002B;
+}
+.foodTitle{
+    display: inline-block;
+}
+.foodDescription{
+    font-size: 75%;
+}
+.menuText{
+    font-size:100%;
+}
+.PR-hr{
+    background-color: #980051;
+}
+
+/* .cat-text{
+    
+    background-color: white;
+    color: #5F002B;
+    font-size: 100.3%;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2.5%;
+    font-family: Montauk;
+    
+} */
+
+.msgText{
+    background-color: white;
+    font-size: 100%;
+}

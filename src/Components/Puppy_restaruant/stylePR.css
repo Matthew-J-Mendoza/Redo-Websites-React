@@ -86,7 +86,7 @@ Photos
     font-size: 1rem !important;
 }
 
-a:hover{
+.Pr-a:hover{
     color: #5F002B;
 }
 
@@ -126,11 +126,19 @@ About us
 /*
 Index and menu page
 */
-
-.indexFormat{
-    padding-left: 8.7rem;
-    padding-right: 8.7rem;
+@media (min-width: 900px) {
+    .indexFormat{
+        padding-left: 8.7rem;
+        padding-right: 8.7rem;
+    }
 }
+@media (max-width: 900px) {
+    .indexFormat{
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+    }
+}
+
 .indexBackground{
     background-image: url("../../images/prImages/bgtexture.jpg");
 }
@@ -172,7 +180,7 @@ Index and menu page
     
 }
 .muzzlesSandwichText{
-
+    font-family: Montauk;
  color:#5F002B;
 
 

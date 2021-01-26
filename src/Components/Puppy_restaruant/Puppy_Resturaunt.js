@@ -8,15 +8,18 @@ import {
 import {PrNav} from "./parts/PRnav"
 import './stylePR.css'
 import {PhotoPage} from './pages/Photos'
+import {AboutPage} from "./pages/About"
+import {CateringPage} from "./pages/Catering"
+import {HomePage} from './pages/Home'
 export const Puppy_Restaruant = () =>{
   return(
     <div>
       <PrNav/>
       <Router>
-         <Route exact path="/Puppy_Restaruant/" />
-        <Route exact path="/Puppy_Restaruant/About" />
+         <Route exact path="/Puppy_Restaruant/" component={HomePage}  />
+        <Route exact path="/Puppy_Restaruant/About" component={AboutPage} />
         <Route exact path="/Puppy_Restaruant/Menu" />
-        <Route exact path="/Puppy_Restaruant/Catering" />
+        <Route exact path="/Puppy_Restaruant/Catering" component={CateringPage} />
         <Route exact path="/Puppy_Restaruant/Photo" component={PhotoPage}/>
       </Router>
     </div>

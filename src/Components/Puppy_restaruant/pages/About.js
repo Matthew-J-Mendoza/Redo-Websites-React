@@ -21,7 +21,7 @@ export const AboutPage = ()=>{
                     <img src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg"/>
                     </Col>
                     <Col sm={12} lg={7} className="white">
-                    <h1 class="card-title fugazTitle ">The Story Behind the Grill</h1>
+                    <h1 className="card-title fugazTitle ">The Story Behind the Grill</h1>
                 <div className="card-text montaukF">
                     <p >Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
                       molestie a iaculis at erat pellentesque adipiscing commodo. Quisque non tellus orci ac auctor augue.

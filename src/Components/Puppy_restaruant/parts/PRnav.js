@@ -44,7 +44,7 @@ export const PrNav = () => {
                                 <a className="Pr-a nav-link active" href="/Puppy_Restaruant/About">About</a>
                             </li>
                             <li className="Pr-a nav-item">
-                                <a className="Pr-a nav-link" href="./menu.html">Menu</a>
+                                <a className="Pr-a nav-link" href="/Puppy_Restaruant/Menu">Menu</a>
                             </li>
                             <li className="Pr-a nav-item">
                                 <a className="Pr-a nav-link" href="/Puppy_Restaruant/Catering">Catering</a>

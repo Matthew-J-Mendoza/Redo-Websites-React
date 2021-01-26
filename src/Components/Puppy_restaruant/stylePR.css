@@ -159,7 +159,11 @@ Index and menu page
     background-size: 115%;
     background-repeat: no-repeat;
 }
+.cc{
+    max-height: 60rem;
+    height: 100rem;
 
+}
 
 .fugazeRegFont{
     font-size:200%;
@@ -252,3 +256,42 @@ Index and menu page
     background-color: white;
     font-size: 100%;
 }
+
+@media (min-width: 1200px) {
+    .Footer-right{
+        font-family: Montauk;
+    color: #5F002B;
+        text-align: right;
+    }
+    .Footer-left{
+        font-family: Montauk;
+    color: #5F002B;
+        text-align: left;
+    }
+    .footer-Img{
+        width: 19%;
+    }
+}
+@media (max-width: 1200px) {
+    .Footer-right{
+        font-family: Montauk;
+    color: #5F002B;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+    }
+    .Footer-left{
+        font-family: Montauk;
+    color: #5F002B;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-Img{
+        width: 30%;
+        font-family: Montauk;
+    color: #5F002B;
+    }
+}
+

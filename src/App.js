@@ -13,6 +13,7 @@ import {Puppy_Restaruant} from "./Components/Puppy_restaruant/Puppy_Resturaunt"
 import {HubPage} from "./Components/HUB/Hub"
 import {HamsterHotel} from "./Components/Hamster_Hotel/Hamster_hotel"
 import {Two_Nerds} from './Components/Multi-Page/Two_Nerds'
+import {TokayPressPage} from './Components/Tokay_Press/Tokay_Press'
 let Body = document.getElementById('body')
 class App extends React.Component {
   constructor(props) {
@@ -47,7 +48,7 @@ class App extends React.Component {
           <Route path="/Puppy_Restaruant" component={Puppy_Restaruant}/>
 
           
-          <Route path="/Tokay_Press">
+          <Route path="/Tokay_Press/Home" component={TokayPressPage}>
           </Route>
   
         </Switch>

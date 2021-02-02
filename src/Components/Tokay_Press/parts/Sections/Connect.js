@@ -10,7 +10,7 @@ export const Contact_Info = () =>{
             <Container>
             <Row className="pb-5 text-center text-md-left">
                 <Col xs={12} md={6} className="pr pr-md-5">
-                <h2 class="pb-0 pb-lg-5">
+                <h2 className="pb-0 pb-lg-5 Tp-h2">
 						Connect with Us!</h2>
 					<hr className="Tp-hr"/>
                     <SocialMedia logo={fBook} username="Tokay Press" alt="facebook logo" href="https://www.facebook.com/tokaypress" />
@@ -21,7 +21,7 @@ export const Contact_Info = () =>{
                     <hr className="pb-5 Tp-hr" />
                 </Col>
                 <Col xs={12} md={6}>
-                <h2>Have a Project?</h2>
+                <h2 className="Tp-h2">Have a Project?</h2>
 					<p>We specialize in custom solutions and we would love to hear about and work with you on your next
 						idea!</p>
                         <EmailForms/>

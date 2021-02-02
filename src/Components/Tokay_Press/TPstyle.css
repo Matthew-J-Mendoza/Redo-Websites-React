@@ -316,18 +316,18 @@ body {
     
 }
 
-h1, h2 {
+.Tp-h1, .Tp-h2 {
     font-family: 'Yeseva One', cursive;
 }
 
-h1{
+.Tp-h1{
     font-size:40px
 }
 
-h2{
+.Tp-h2{
     font-size:36px
 }
-
+/*Add these to Tokay*/
 .featuredCard {
     border-radius: 30px;
     border-width: 10px;

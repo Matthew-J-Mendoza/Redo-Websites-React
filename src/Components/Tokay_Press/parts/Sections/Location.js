@@ -19,16 +19,16 @@ export const LocationSection =()=>{
                     {/* PUT SMALLER LOGO HERE */}
 
                     <Col xs={12} sm={6} lg={3} sm={{ order: 1 }} className="text-center text-sm-left">
-                    <h2>Visit Us!</h2>
+                    <h2 className="Tp-h2">Visit Us!</h2>
 					<p>948 W. Fremont St.
 						<br/> Stockton, California 95203
 					</p>
 					<hr className="Tp-hr"/>
-					<h2>Email Us!</h2>
+					<h2 className="Tp-h2">Email Us!</h2>
 					<a className="TP-a" href="mailto: orders@tokaypress.com">orders@tokaypress.com</a>
 					<br/>
 					<hr className="Tp-hr"/>
-					<h2>Call Us!</h2>
+					<h2 className="Tp-h2">Call Us!</h2>
 					<p className="pb-4 p-lg-0">209.547.0377</p>
                     </Col>
                     <Col md={12} lg={6} xs={{ order: 12 }} sm={{ order: 1 }} >

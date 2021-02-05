@@ -1,27 +1,28 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Form } from 'react-bootstrap'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 
 
 import '../TPstyle.css'
-import {HomeC} from '../parts/HomeC'
+import { HomeC } from '../parts/HomeC'
+import { AboutSection } from '../parts/Sections/About'
 
-export class TPHome extends React.Component{
+export class TPHome extends React.Component {
 
 
 
-    render(){
-        return(
+    render() {
+        return (
             <div className=" ">
-                <HomeC/>
-                    
-                <Container fluid >
-                </Container>
+                <HomeC />
+
+                <AboutSection />
+
             </div>
         )
     }

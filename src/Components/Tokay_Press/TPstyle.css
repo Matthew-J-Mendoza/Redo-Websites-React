@@ -644,3 +644,7 @@ body {
     font-size: 14px;
     color: #97c4c0;
 }
+.featuredCarousel{
+    width: 100%;
+    position: absolute;
+}

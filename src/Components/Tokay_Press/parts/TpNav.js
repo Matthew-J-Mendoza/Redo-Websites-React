@@ -14,16 +14,16 @@ export const TpNav = () => {
         <div>
             <Container fluid className="navblur">
                 <Navbar bg="" expand="lg" className="container">
-                    <Link to="/Tokay_Press/Home">
+                    <a href="/Tokay_Press/Home">
                     <img src={Logo} class="py-2 d-none d-sm-flex" alt="The Tokay Press Logo" width="250px" />
-                    </Link>
+                    </a>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 
                         <Nav className="">
-                            <Nav.Link>
+                            <Nav.Link href="a">
                                 <Col xs={12} className="col-md text-right text-md px-4">
-                                <Link to="/Tokay_Press/Featured" className="TP-a navLinks">Featured</Link>
+                                <a href="/Tokay_Press/Featured" className="TP-a navLinks">Featured</a>
                                 </Col>
                             </Nav.Link>
                             <Nav.Link>

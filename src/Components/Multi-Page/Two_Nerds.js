@@ -15,7 +15,6 @@ import {topAnimes} from "./Data/AnimeData"
 
 
 const GameArticles = Object.entries(topGames).map((key, i)=>{
-  console.log(key)
   return (
     <Route path={key[1].Pathway}>
     <Articlepage Media={key[1]} Title={key[1].title} />

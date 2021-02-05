@@ -48,7 +48,7 @@ class App extends React.Component {
           <Route path="/Puppy_Restaruant" component={Puppy_Restaruant}/>
 
           
-          <Route path="/Tokay_Press/Home" component={TokayPressPage}>
+          <Route path="/Tokay_Press/" component={TokayPressPage}>
           </Route>
   
         </Switch>

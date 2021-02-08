@@ -1,18 +1,17 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
-import img from '../../../images/TPimages/Design.png'
 
 
 
-export const AUcards = () => {
+
+export const AUcards = (props) => {
     return (
-        <Col xs={4} className="d-flex justify-content-center">
-            <Card style={{ width: '25rem' }} className="design-card text-center">
-                <Card.Img variant="top" src={img} className="rounded-circle my-4 design-img" />
+        
+            <Card style={{ width: '25rem' }} className={`${props.cardType}-${props.bool === false && props.slidesOpen === true ? "opac" : props.bool === true && props.slidesOpen === true ? "selected" : "card"} text-center ${props.mobile}`}>
+                <Card.Img variant="top" src={props.img} className="rounded-circle my-4 design-img" />
                 <Card.Body>
-                    <Card.Title className="mb-3 Tp-h1">Design</Card.Title>
-                    <Button variant="primary" className="design-btn TP-btn px-5 my-4">More About Design</Button>
+                    <Card.Title className="mb-3 Tp-h1">{props.cardType[0].toUpperCase()+props.cardType.slice(1)}</Card.Title>
+                    <Button onClick={props.btnFunction} variant="light" className={`${props.cardType}-btn TP-btn px-5 my-4 ${props.bool === true && props.slidesOpen === true ? "seeLess" : ""}`}>{props.bool === false ? `More About ${props.cardType[0].toUpperCase()+props.cardType.slice(1)}` : "See Less"}</Button>
                 </Card.Body>
             </Card>
-        </Col>
     )
 }

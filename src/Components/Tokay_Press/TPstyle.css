@@ -39,9 +39,9 @@ Design
 }
 
 .design-btn:hover {
-    background-color: #b0ece8;
-    border-color: #89DDD8;
-    color: #030303;
+    background-color: #b0ece8 !important;
+    border-color: #89DDD8 !important;
+    color: #030303 !important;
 }
 
 .design-btn:active {
@@ -69,7 +69,7 @@ Production
     border: 12px solid white;
 }
 
-.productionBtn {
+.production-btn {
     border-radius: 32px;
     color: #030303;
     background-color: #FF9D81;
@@ -78,13 +78,13 @@ Production
     box-shadow: 0px 3px 6px #00000029;
 }
 
-.productionBtn:hover {
-    background-color: #fcb39f;
-    border-color: #FF9D81;
-    color: #030303;
+.production-btn:hover {
+    background-color: #fcb39f !important;
+    border-color: #FF9D81 !important;
+    color: #030303 !important;
 }
 
-.productionBtn:active {
+.production-btn:active {
     background-color: #FF9D81!important;
     color: #030303 !important;
     border-color: #FF9D81 !important;
@@ -119,9 +119,9 @@ Solution
 }
 
 .solution-btn:hover {
-    background-color: #ffe551;
-    border-color: #FFDA00;
-    color: #030303;
+    background-color: #ffe551 !important;
+    border-color: #FFDA00 !important;
+    color: #030303 !important;
 }
 
 .solution-btn:active {
@@ -201,9 +201,9 @@ General
 }
 
 .seeLess:hover {
-    background-color: #ebebeb;
-    border-color: #ebebeb;
-    color: #030303;
+    background-color: #ebebeb !important;
+    border-color: #ebebeb !important;
+    color: #030303 !important;
 }
 
 .seeLess:active {
@@ -647,4 +647,11 @@ body {
 .featuredCarousel{
     width: 100%;
     position: absolute;
+}
+
+.displayImg{
+    display: block;
+}
+.ContainerIMG{
+    width: 100%;
 }

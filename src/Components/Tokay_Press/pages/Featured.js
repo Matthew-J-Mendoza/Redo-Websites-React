@@ -2,11 +2,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 import {PostCards} from '../parts/FeaturedCards/PostsCard'
 
 import {FeatuedCarousel} from "../parts/FCarousel"
+import {PostData} from '../Data/FeatPostData'
 
-const obj ={
-    si: 5,
-    gh: "hello"
-}
+
+const FeatPostCards = Object.entries(PostData).map((key)=>{
+    console.log(key[1])
+    return (<PostCards Data={key[1]}/>)
+})
+
 
 export const FeaturedPage =()=>{
     return(
@@ -18,12 +21,7 @@ export const FeaturedPage =()=>{
         </Container>
         <Container className="py-5 px-5 px-lg">
         
-        <PostCards/>
-        <PostCards/>
-        <PostCards/>
-        <PostCards/>
-        <PostCards/>
-        <PostCards/>
+        {FeatPostCards}
 
         </Container>
         </div>

@@ -12,7 +12,7 @@ export const PackagesSection =()=>{
                         <h2 className="text-center my-5">Packages</h2>
                     </Col>
                     <Col lg={6}>
-                    <img src={wedding} className="package-img"/>
+                    <img src={wedding} className="package-img" alt="Beach-Package"/>
                     </Col>
                     <Col lg={6}>
                     <PackageDetail title="Beach Wedding Package" price="Starting US $1,500.00" desc='Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9\" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.'/>
@@ -26,14 +26,14 @@ export const PackagesSection =()=>{
                     </Col>
 
                     <Col lg={6} >
-                    <img src={spring} className="package-img"/>
+                    <img src={spring} className="package-img" alt="Full-Bloom-Package"/>
                     </Col>
                 </Row>
 
                 <Row>
 
                     <Col lg={6}>
-                    <img src={cheese} className="package-img"/>
+                    <img src={cheese} alt="Chease-Package" className="package-img"/>
                     </Col>
                     <Col lg={6}>
                     <PackageDetail title="Chease and Seed Tour Package" price="Starting US $1,200.00" desc="Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We

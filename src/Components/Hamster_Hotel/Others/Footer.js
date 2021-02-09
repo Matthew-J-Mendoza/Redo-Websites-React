@@ -7,7 +7,7 @@ export const FooterHH = () =>{
         <Container fluid className="end-container">
             <Row className="d-flex justify-content-center">
               <Col lg={12} className="d-flex justify-content-center end-logo">
-              <img src={Logo} />
+              <img src={Logo} alt="Logo-footer" />
               </Col>
               <Col lg={12}>
               <p className="end-text">123 Sunflower Seed Rd., Cavia, California 95205</p>

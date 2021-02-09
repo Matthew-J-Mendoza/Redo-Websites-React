@@ -11,7 +11,7 @@ export const CardsTg = (Props)=>{
     return(
                     <Col xs={12} className="mb-5">
                         <Card className="cardBGColor text-light TGcard">
-                            <Card.Img className="cardimg" variant="top" src={Props.game.Thumbnail} />
+                            <Card.Img className="cardimg" variant="top" src={Props.game.Thumbnail} alt="Pick-Img"/>
                             <Card.Body>
                             <h2 class="card-title cardTitleText">{Props.game.title}</h2>
                             <h3 class="card-text ">{`${Props.game.Author}'s #${Props.game.Tier} Pick`}</h3>

@@ -11,7 +11,7 @@ export const Welcome = () => {
             <Container id="Overview" className="mt-4">
                 <Row>
                     <Col lg={4}>
-                        <img src={hamsterhome} width="90%" />
+                        <img src={hamsterhome} alt="Welcome Image" width="90%" />
                     </Col>
                     <Col lg={8}>
                         <Row>
@@ -31,13 +31,13 @@ export const Welcome = () => {
                             our quality rooms, and thank you for choosing La Petite Masion.</p>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg awardType={Finest}/>
+                            <AwardImg alt="Finest" awardType={Finest}/>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg awardType={Faction}/>
+                            <AwardImg alt="Faction" awardType={Faction}/>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg awardType={Genuine}/>
+                            <AwardImg alt="Genuine" awardType={Genuine}/>
                             </Col>
                         </Row>
                     </Col>

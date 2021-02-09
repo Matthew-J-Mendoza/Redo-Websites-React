@@ -7,7 +7,7 @@ export const HHnav = () =>{
     return(
             <Navbar bg="dark" variant="dark" expand="lg" className="navlayout ">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <img src={Logo} className="d-lg-none d-flex mr-auto ml-auto" width="100rem" />
+  <Navbar.Brand className="mr-auto ml-auto" href="#home"><img src={Logo} alt="sm-Logo" className="d-lg-none d-flex justify-content-center" width="50%" /></Navbar.Brand>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto mr-auto">
     <Container fluid className="d-none d-lg-block">
@@ -22,7 +22,7 @@ export const HHnav = () =>{
             <Nav.Link className="links" href="#link">Packages</Nav.Link>
             </Col>
             <Col>
-            <img src={Logo} />
+            <img src={Logo} alt="Navbar-Logo" />
             </Col>
             <Col>
             <Nav.Link className="links" href="#link">Amenities</Nav.Link>

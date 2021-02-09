@@ -1,7 +1,7 @@
 export const AwardImg = (props) =>{
     return(
         <div>
-            <img src={props.awardType} width="90%"/>
+            <img src={props.awardType} alt={props.alt} width="90%"/>
         </div>
     )
 }

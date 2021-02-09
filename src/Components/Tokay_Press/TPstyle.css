@@ -655,3 +655,6 @@ body {
 .ContainerIMG{
     width: 100%;
 }
+.CloseClass{
+    cursor: pointer !important;
+}

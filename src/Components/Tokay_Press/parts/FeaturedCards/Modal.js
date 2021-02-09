@@ -28,7 +28,7 @@ export function FeaturedModal(props) {
           {props.Data.Long_Desc}
           </Col>
           <Col sx={12} lg={3} className='d-flex justify-content-end align-items-end'>
-          <h4 onClick={props.onHide}>CLOSE</h4>
+          <h4 onClick={props.onHide} className="CloseClass">CLOSE</h4>
           </Col>
         </Row>
       </Modal.Footer>

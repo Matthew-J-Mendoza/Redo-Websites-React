@@ -7,7 +7,7 @@ export const RoomCard = (Props) => {
     return (
         <div className="d-flex justify-content-center mt-4 ">
             <Card style={{ width: '26rem' }} className="t">
-                <Card.Img variant="top" src={Props.img} />
+                <Card.Img variant="top" src={Props.img} alt='Room-Card-Img' />
                 <Card.Body className="">
                     <h2 className=" Dosis">{Props.data.title}</h2>
                     <p className=""><b>{Props.data.dimension}</b></p>

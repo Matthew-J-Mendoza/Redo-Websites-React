@@ -6,10 +6,10 @@ export const Offers = (Props)=>{
         <div>
                 <Row className="mb-5">
                     <Col lg={12} className="mt-4 mb-5">
-                    <img src={Props.img} height='110rem'/>
+                    <img src={Props.img} alt={Props.alt} height='110rem'/>
                     </Col>
                     <Col lg={12}>
-                    <h4 className="amenities-desc"><b>{Props.txt}</b></h4>
+                    <p className="amenities-desc"><b>{Props.txt}</b></p>
                     </Col>
                 </Row>
         </div>

@@ -17,16 +17,16 @@ export const AmenitiesSection = () =>{
                     
                     </Col>
                     <Col lg={3}>
-                    <Offers img={service24} txt="24 Hour Room Service" />
+                    <Offers img={service24} alt="24hr Service" txt="24 Hour Room Service" />
                     </Col>
                     <Col lg={3}>
-                    <Offers img={breakfast} txt="Complimentary Breakfast"/>
+                    <Offers img={breakfast} alt="Breakfast" txt="Complimentary Breakfast"/>
                     </Col>
                     <Col lg={3}>
-                    <Offers img={valet} txt="Valet Parking" />
+                    <Offers img={valet} alt="Valet" txt="Valet Parking" />
                     </Col>
                     <Col lg={3}>
-                    <Offers img={pool} txt="Beachside Pool" />
+                    <Offers img={pool} alt="Pool" txt="Beachside Pool" />
                     </Col>
                 </Row>
             </Container>

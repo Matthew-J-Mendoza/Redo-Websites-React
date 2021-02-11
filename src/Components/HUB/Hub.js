@@ -1,4 +1,4 @@
-import { Button } from 'react-bootstrap';
+import { Button, Container,Row,Col } from 'react-bootstrap';
 import {
     BrowserRouter as Router,
     Switch,
@@ -6,6 +6,8 @@ import {
     Link
   } from "react-router-dom";
   import './styleHUB.css'
+  import HH_Thumbnail from '../../images/Hub-Images/HH_Thumbnail.png'
+  import {WebsiteCards} from './parts/Websitecards'
   let body = document.getElementById('body')
 let LastPath = window.location.pathname;
 
@@ -17,6 +19,16 @@ export const HubPage =()=>{
         <Button as={Link}  to={"/Hamster_Hotel"}>Hamster_Hotel</Button>{' '}
         <Button as={Link}  to={"/Puppy_Restaruant"}>Puppy_Restaruant</Button>{' '}
         <Button as={Link}  to={"/Tokay_Press/Home"}>Tokay_Press</Button>
+        <Container fluid >
+        <Row>
+
+          <WebsiteCards/>
+          <WebsiteCards/>
+          <WebsiteCards/>
+          <WebsiteCards/>
+
+        </Row>
+        </Container>
         </div>
     )
 }

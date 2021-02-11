@@ -18,7 +18,7 @@ export const AboutPage = ()=>{
             <Container fluid className="my-5">
                 <Row>
                     <Col sm={12} lg={5}>
-                    <img src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg"/>
+                    <img src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg" alt="Two Dogs"/>
                     </Col>
                     <Col sm={12} lg={7} className="white">
                     <h1 className="card-title fugazTitle ">The Story Behind the Grill</h1>

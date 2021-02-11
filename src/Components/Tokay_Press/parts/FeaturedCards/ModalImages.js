@@ -19,7 +19,7 @@ export class ModImages extends React.Component{
             <Row className='px-2 pb-2'>
         <Col className="px-0 pr-2" xs={10}>
         <div className="containerImg displayImg">
-        <img src={this.state.BigImg} className="ContainerIMG"/>
+        <img src={this.state.BigImg} className="ContainerIMG" alt="Main Image"/>
         
         </div>
         </Col>
@@ -51,7 +51,7 @@ const ImgBtn =(props)=>{
   const handleClick =()=> props.onClick(props.IMGtag)
   return(
     <Col xs={12} className="columnImg" onClick={handleClick}>
-    <img src={props.IMGtag} className="imgSize"/>
+    <img src={props.IMGtag} className="imgSize" alt="SideImg"/>
   </Col>
   )
 }

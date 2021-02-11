@@ -10,7 +10,7 @@ export const EmailForms = () => {
     return (
         <Form>
             <Row>
-                <Form.Group controlId="formBasicEmail" className="col-12 col-md-6">
+                <Form.Group controlId="NameInput" className="col-12 col-md-6">
                     <Form.Label className="sr-only">Your Full Name</Form.Label>
                     <Form.Control type="type" placeholder="Your Full Name" />
                     <Form.Text className="text-muted">

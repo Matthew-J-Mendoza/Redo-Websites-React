@@ -5,7 +5,7 @@ export const TeamBio = (Props) => {
     return (
             <Col sm={12} lg={4} className="cardSpacing d-flex justify-content-center ">
                 <Card  >
-                    <Card.Img variant="top" src={Props.Profile} />
+                    <Card.Img variant="top" src={Props.Profile} alt="Puppy Profile Pic" />
                     <Card.Body>
                         <Card.Title className="fugazTitle"><h2>{Props.Name}</h2></Card.Title>
                         <Card.Text className="montaukF ">

@@ -9,7 +9,7 @@ export const PrNav = () => {
                 <Row>
                     <Col sm={3}>
                         <a href="/Puppy_Restaruant/">
-                            <img src={Logo} width="70%" />
+                            <img alt="Logo" src={Logo} width="70%" />
                         </a>
                     </Col>
                     <Col sm={9}>
@@ -35,7 +35,7 @@ export const PrNav = () => {
                 <Row>
                     <Col sm={3}>
                         <a href="/Puppy_Restaruant/">
-                            <img src={Logo} width="200rem" />
+                            <img alt="Logo" src={Logo} width="200rem" />
                         </a>
                     </Col>
                     <Col sm={12}>

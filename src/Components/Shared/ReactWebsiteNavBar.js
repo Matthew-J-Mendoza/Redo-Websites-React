@@ -1,8 +1,5 @@
 import { Navbar,Nav, ButtonGroup, Dropdown, DropdownButton } from 'react-bootstrap';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 

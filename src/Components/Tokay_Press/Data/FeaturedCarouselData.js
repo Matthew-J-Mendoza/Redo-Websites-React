@@ -4,7 +4,7 @@ import Hero from '../../../images/TPimages/featuredHero.png'
 import Spot from '../../../images/TPimages/spotUV.png'
 import Swag from '../../../images/TPimages/swag.png'
 import overlay from '../../../images/TPimages/heroOverlay.png'
-
+import {IMG} from '../../Shared/img'
 
 
 const Data ={
@@ -41,13 +41,12 @@ SwagCap: {
 
 
 export const CarouselArray = Object.entries(Data).map((key, i)=>{
-    console.log(key[1])
     return(
         <Carousel.Item className="heroHeight">
             <div>
-                <img src={overlay} className="featuredCarousel" alt="image overlay"/>
+                <IMG src={overlay} className="featuredCarousel" alt="image overlay"/>
             </div>
-            <img className="d-block fitCover" src={key[1].Img} alt="A few pages from our new Website Redesign" width="100%"/>
+            <IMG className="d-block fitCover" src={key[1].Img} alt="A few pages from our new Website Redesign" width="100%"/>
             <Carousel.Caption className={key[1].LG_Class}>
 					<h2 className="d-lg-block Tp-h2">{key[1].title}</h2><hr className="Tp-hr"/>
 					<p>{key[1].desc}</p>

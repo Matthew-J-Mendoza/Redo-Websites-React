@@ -1,5 +1,5 @@
-import { Button, Card, Col } from 'react-bootstrap';
-import img from '../../../images/prImages/doxie3.jpg'
+import { Card, Col } from 'react-bootstrap';
+
 
 export const TeamBio = (Props) => {
     return (

@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import {IMG} from '../../Shared/img'
 
 export const Offers = (Props)=>{

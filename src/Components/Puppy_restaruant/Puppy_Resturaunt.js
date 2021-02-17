@@ -1,9 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
 } from "react-router-dom";
 import {PrNav} from "./parts/PRnav"
 import {Footer} from "./parts/PRfooter"
@@ -14,11 +12,10 @@ import {CateringPage} from "./pages/Catering"
 import {HomePage} from './pages/Home'
 import {MenuPage} from './pages/Menu'
 import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
-import { getElementError } from "@testing-library/react";
+
 
 export class Puppy_Restaruant extends React.Component{
   constructor(props){
-    console.log('Constructor gets fired')
     super(props);
     this.state={
         

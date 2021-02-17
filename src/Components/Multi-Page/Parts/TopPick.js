@@ -1,6 +1,5 @@
 import { Carousel } from 'react-bootstrap';
-import Nier from "../../../images/tgImages/N2.PNG"
-import Destiny from "../../../images/tgImages/D2.PNG"
+
 import {IMG} from '../../Shared/img'
 export const TopPicks = (Props) =>{
     return(

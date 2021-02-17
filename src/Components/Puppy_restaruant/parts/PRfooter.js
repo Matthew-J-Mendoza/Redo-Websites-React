@@ -1,4 +1,4 @@
-import { Col, Card, Row, Container } from "react-bootstrap"
+import { Col, Row, Container } from "react-bootstrap"
 import footerImg from '../../../images/prImages/CompanyLogo.png'
 import {IMG} from '../../Shared/img'
 

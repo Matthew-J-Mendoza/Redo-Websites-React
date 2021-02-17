@@ -2,11 +2,10 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import {Choose} from './pages/index/WelcomePage'
-import './styleTG.css'
+import './styleTN.css'
 import { Articlepage } from "./pages/Article";
 import {GamePage} from "./pages/Games"
 import {AnimePage} from "./pages/Anime"
@@ -39,7 +38,6 @@ export class Two_Nerds extends React.Component{
     }
 }
 componentDidMount(){
-  //console.log('COmponent Did Mount fired')
   this.TN_BG = setInterval(() => {
       document.getElementById('body').className = 'bg-secondary'
   }, 100);
@@ -75,6 +73,3 @@ componentWillUnmount(){
   }
 }
 
-{/* <Route path={topGames.DS3.Pathway}>
-            <Articlepage Media={topGames.DS3} Title={topGames.DS3.title} />
-          </Route>*/}

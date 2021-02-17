@@ -1,5 +1,5 @@
 import { Col } from "react-bootstrap"
-import image from '../../../images/prImages/photo01.jpg'
+
 import {IMG} from '../../Shared/img'
 
 export const Thumbnail =(Props)=>{

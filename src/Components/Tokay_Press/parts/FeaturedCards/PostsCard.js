@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import {App} from './Modal'
 
 import {IMG} from '../../../Shared/img'

@@ -1,8 +1,6 @@
 import React from 'react'
-import { Modal, Button, Row,Container,Col } from 'react-bootstrap'
-import img1 from '../../../../images/TPimages/vet1.jpg'
-import img2 from '../../../../images/TPimages/vet2.jpg'
-import moon1 from '../../../../images/TPimages/moon1.jpg'
+import { Row,Col } from 'react-bootstrap'
+
 import {IMG} from '../../../Shared/img'
 export class ModImages extends React.Component{
     constructor(props){
@@ -30,13 +28,6 @@ export class ModImages extends React.Component{
           <div className="rowImg">
           {this.props.ImgSet.map(img=> <ImgBtn IMGtag={img} onClick={this.ImgSwap}/>)}
 
-          {/* <Col xs={12} className="columnImg">
-            <img src={img1} className="imgSize"/>
-          </Col>
-
-          <Col xs={12} className="columnImg">
-            <img src={img2} className="imgSize"/>
-          </Col> */}
 
 
           </div>

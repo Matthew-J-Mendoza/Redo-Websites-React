@@ -1,4 +1,4 @@
-import { Modal, Button, Row,Container,Col } from 'react-bootstrap'
+import { Modal, Button, Row,Col } from 'react-bootstrap'
 import React from 'react'
 import {ModImages} from './ModalImages'
 

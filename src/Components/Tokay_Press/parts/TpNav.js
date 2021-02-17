@@ -1,11 +1,5 @@
-import { Button, Navbar, Nav, NavDropdown, Container, Col } from 'react-bootstrap';
+import { Navbar, Nav,Container, Col } from 'react-bootstrap';
 import Logo from '../../../images/TPimages/TokayLogo.svg'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
   import {IMG} from '../../Shared/img'
 
 

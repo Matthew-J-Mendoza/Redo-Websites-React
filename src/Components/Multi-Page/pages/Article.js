@@ -1,4 +1,4 @@
-import { TgNavBar } from "../Parts/tbNav";
+import { TgNavBar } from "../Parts/tnNav";
 import { Container, Row, Col } from 'react-bootstrap';
 import {IMG} from '../../Shared/img'
 

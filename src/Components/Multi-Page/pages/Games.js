@@ -1,17 +1,11 @@
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+
 import { Container, Row, Col } from 'react-bootstrap';
 
 import { topGames } from '../Data/GamesData'
-import { TgNavBar } from "../Parts/tbNav";
-import { CardsTg } from "../Parts/tbCards";
+import { TgNavBar } from "../Parts/tnNav";
+import { CardsTg } from "../Parts/tnCards";
 
-// import Ds3_Thumb from '../../../../images/tgImages/'
-// import Ds3_Thumb from '../../../../images/tgImages/'
+
 
 
 

@@ -1,18 +1,10 @@
-import { Button, Container,Row,Col } from 'react-bootstrap';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Container,Row } from 'react-bootstrap';
   import './styleHUB.css'
   import HH_Logo from '../../images/hhImages/Logo.png'
   import TP_Logo from '../../images/TPimages/TokayLogo.svg'
   import PR_Logo from '../../images/prImages/MuzzlesLogo.png'
   import TN_Logo from '../../images/Hub-Images/Two_Nerds_Logo.png'
   import {WebsiteCards} from './parts/Websitecards'
-  let body = document.getElementById('body')
-let LastPath = window.location.pathname;
 
 export const HubPage =()=>{
     return(

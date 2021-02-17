@@ -1,6 +1,4 @@
-import { Button, Container,Row,Col } from 'react-bootstrap';
-//import HH_Thumbnail from '../../../images/hhImages/Logo.png'
-import HH_Thumbnail from '../../../images/TPimages/TokayLogo.svg'
+import { Row,Col } from 'react-bootstrap';
 import {
     Link
   } from "react-router-dom";

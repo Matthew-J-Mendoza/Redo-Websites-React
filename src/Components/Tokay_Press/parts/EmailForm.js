@@ -13,7 +13,7 @@ export class EmailForms extends React.Component{
         let messageBtn = document.getElementById("messageBtn");
 let inputName = document.getElementById('NameInput');
 let inputEmail = document.getElementById('formBasicEmail');
-let inputMessage = document.getElementById('exampleForm.ControlTextarea1');
+
 
 if (inputName.value !== "" && inputEmail.value !=="" && inputEmail.value!== ""){
     messageBtn.classList.add('messageSent');
@@ -44,7 +44,7 @@ if (inputName.value !== "" && inputEmail.value !=="" && inputEmail.value!== ""){
                         </Form.Text>
                     </Form.Group>
                 </Row>
-                    <Form.Group required controlId="exampleForm.ControlTextarea1">
+                    <Form.Group required controlId="ControlTextarea1">
                         <Form.Label className="sr-only">Tell us more about your project!</Form.Label>
                         <Form.Control as="textarea" rows={7} placeholder="Tell us more about your project!" />
                     </Form.Group>

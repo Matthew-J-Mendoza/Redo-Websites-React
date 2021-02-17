@@ -18,7 +18,7 @@ export function FeaturedModal(props) {
           <p>{props.Data.Date}</p>
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body >
         <ModImages ImgSet={props.Data.Images}/>
       </Modal.Body>
       <Modal.Footer>

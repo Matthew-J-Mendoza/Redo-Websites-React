@@ -7,7 +7,7 @@ import RoomImg3 from "../../../images/hhImages/room2.jpg"
 import {QueensRoom, KingRoom, BeachSuit} from './CardData'
 export const Rooms = () =>{
     return(
-        <div className="mt-5 rooms-background">
+        <div className="mt-5 rooms-background" id="Rooms">
             <h1 className="text-center text-light room-header">Our Rooms</h1>
             <Container>
                 <Row>

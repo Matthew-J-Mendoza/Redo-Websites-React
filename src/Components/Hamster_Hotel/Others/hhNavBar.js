@@ -18,22 +18,22 @@ export const HHnav = () =>{
             <Nav.Link className="links" href="#Overview">Overview</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links" href="#link">Rooms</Nav.Link>
+            <Nav.Link className="links" href="#Rooms">Rooms</Nav.Link>
             </Col>
             <Col lg={0}>
-            <Nav.Link className="links" href="#link">Packages</Nav.Link>
+            <Nav.Link className="links" href="#Packages">Packages</Nav.Link>
             </Col>
             <Col>
             <IMG src={Logo} alt="Navbar-Logo" className="pt-2" />
             </Col>
             <Col>
-            <Nav.Link className="links" href="#link">Amenities</Nav.Link>
+            <Nav.Link className="links" href="#Amenities">Amenities</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links" href="#link">Contact</Nav.Link>
+            <Nav.Link className="links" href="#Contact">Contact</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links box" href="#link">Reserve</Nav.Link>
+            <Nav.Link className="links box" href="#Reserve">Reserve</Nav.Link>
             </Col>
         </Row>
     </Container>
@@ -43,19 +43,19 @@ export const HHnav = () =>{
             <Nav.Link className="links" href="#Overview">Overview</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#link">Rooms</Nav.Link>
+            <Nav.Link className="links" href="#Rooms">Rooms</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#link">Packages</Nav.Link>
+            <Nav.Link className="links" href="#Packages">Packages</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#link">Amenities</Nav.Link>
+            <Nav.Link className="links" href="#Amenities">Amenities</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#link">Contact</Nav.Link>
+            <Nav.Link className="links" href="#Contact">Contact</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#link">Reserve</Nav.Link>
+            <Nav.Link className="links" href="#Reserve">Reserve</Nav.Link>
             </Col>
         </Row>
     </Container>

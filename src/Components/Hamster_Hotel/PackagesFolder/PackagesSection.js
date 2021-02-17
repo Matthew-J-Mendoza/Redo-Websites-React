@@ -6,7 +6,7 @@ import cheese from '../../../images/hhImages/hamstercheese.jpg'
 import {IMG} from '../../Shared/img'
 export const PackagesSection =()=>{
     return(
-        <div>
+        <div id="Packages">
             <Container>
                 <Row>
                     <Col lg={12}>

@@ -31,13 +31,13 @@ export const Welcome = () => {
                             our quality rooms, and thank you for choosing La Petite Masion.</p>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg alt="Finest" awardType={Finest}/>
+                            <AwardImg alt="Faction" awardType={Faction} width="80%"/>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg alt="Faction" awardType={Faction}/>
+                            <AwardImg alt="Finest" awardType={Finest} width="100%"/>
                             </Col>
                             <Col lg={4} xs={4}>
-                            <AwardImg alt="Genuine" awardType={Genuine}/>
+                            <AwardImg alt="Genuine" awardType={Genuine} width="90%"/>
                             </Col>
                         </Row>
                     </Col>

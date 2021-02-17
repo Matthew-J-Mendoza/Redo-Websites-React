@@ -298,9 +298,10 @@ Opac
     box-shadow: 0px 3px 6px #00000029;
 }
 
-.Tokay_Body {
+.TP-Font {
     background-color: #F3F3F3;
     font-family: 'Nunito', sans-serif;
+    padding-bottom: 3rem;
 }
 
 .heroImage {

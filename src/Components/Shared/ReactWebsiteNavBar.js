@@ -25,7 +25,7 @@ export const RWNavBar=()=>{
         <Dropdown.Item as={Link} to="/Puppy_Restaruant" >Muzzles</Dropdown.Item>
         <Dropdown.Item as={Link} to="/Tokay_Press/Home" >Tokay_Press</Dropdown.Item>
         <Dropdown.Divider />
-        <Dropdown.Item >Tokay Press</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/" >HUB</Dropdown.Item>
       </DropdownButton>
   </Navbar>
     )

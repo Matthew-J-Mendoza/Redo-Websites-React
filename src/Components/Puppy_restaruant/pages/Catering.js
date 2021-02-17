@@ -20,10 +20,10 @@ export const CateringPage = () =>{
            </div>
                     </Col>
                     <Col sm={12}  className="mb-5 h-100 d-md-none">
-                    <IMG src={OCS}  height="1rem" alt="image/AboutMain.jpg" />
+                    <IMG src={OCS} width="100%" height="1rem" alt="image/AboutMain.jpg" />
                     </Col> 
                     <Col  lg={5} className="mb-5 d-none d-md-block mh-100">
-                    <IMG src={OCS} width="100%" height="100%" alt="image/AboutMain.jpg" />
+                    <IMG src={OCS} width="100%" height="115%" alt="image/AboutMain.jpg" />
                     </Col>
                     <Col sm={12} lg={7} className=" h-100 white montaukF">
                     <h1 className="card-title fugazTitle ">Our Catering Services</h1>

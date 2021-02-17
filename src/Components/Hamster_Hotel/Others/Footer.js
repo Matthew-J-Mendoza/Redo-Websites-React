@@ -4,7 +4,7 @@ import {IMG} from '../../Shared/img'
 
 export const FooterHH = () =>{
     return(
-        <Container fluid className="end-container">
+        <Container fluid className="end-container" id="Contact">
             <Row className="d-flex justify-content-center">
               <Col lg={12} className="d-flex justify-content-center end-logo">
               <IMG src={Logo} alt="Logo-footer" />

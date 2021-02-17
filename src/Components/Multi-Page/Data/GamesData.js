@@ -1,28 +1,28 @@
 
 //Thumbnails
-import DS3_Thumb from '../../../images/tgImages/DarkS2.PNG'
-import WF_Thumb from '../../../images/tgImages/WF2.PNG'
-import GW2_Thumb from '../../../images/tgImages/Guild2.PNG'
-import BB_Thumb from '../../../images/tgImages/BB2.PNG'
-import MC_Thumb from '../../../images/tgImages/MC2.PNG'
-import RL_Thumb from '../../../images/tgImages/RL2.PNG'
-import SS_Thumb from '../../../images/tgImages/SS2.PNG'
-import RoR2_Thumb from '../../../images/tgImages/ROR2.PNG'
-import Nier_Thumb from '../../../images/tgImages/N2.PNG'
-import Destiny_Thumb from '../../../images/tgImages/D2.PNG'
+import DS3_Thumb from '../../../images/tnImages/DarkS2.PNG'
+import WF_Thumb from '../../../images/tnImages/WF2.PNG'
+import GW2_Thumb from '../../../images/tnImages/Guild2.PNG'
+import BB_Thumb from '../../../images/tnImages/BB2.PNG'
+import MC_Thumb from '../../../images/tnImages/MC2.PNG'
+import RL_Thumb from '../../../images/tnImages/RL2.PNG'
+import SS_Thumb from '../../../images/tnImages/SS2.PNG'
+import RoR2_Thumb from '../../../images/tnImages/ROR2.PNG'
+import Nier_Thumb from '../../../images/tnImages/N2.PNG'
+import Destiny_Thumb from '../../../images/tnImages/D2.PNG'
 
 //Banners
-import DS3_Banner from '../../../images/tgImages/DarkS2.PNG'
-import WF_Banner from '../../../images/tgImages/WF2.PNG'
-import GW2_Banner from '../../../images/tgImages/Guild2.PNG'
-import BB_Banner from '../../../images/tgImages/BB2.PNG'
-import MC_Banner from '../../../images/tgImages/Minecraft.png'
-import RL_Banner from '../../../images/tgImages/RL2.PNG'
-import SS_Banner from '../../../images/tgImages/Secondson.jpg'
-import RoR2_Banner from '../../../images/tgImages/ROR2.PNG'
-import Nier_Banner from '../../../images/tgImages/nier-automata-.jpg'
-import Destiny_Banner from '../../../images/tgImages/D2.PNG'
-
+import DS3_Banner from '../../../images/tnImages/DarkS2.PNG'
+import WF_Banner from '../../../images/tnImages/WF2.PNG'
+import GW2_Banner from '../../../images/tnImages/Guild2.PNG'
+import BB_Banner from '../../../images/tnImages/BB2.PNG'
+import MC_Banner from '../../../images/tnImages/Minecraft.png'
+import RL_Banner from '../../../images/tnImages/RL2.PNG'
+import SS_Banner from '../../../images/tnImages/Secondson.jpg'
+import RoR2_Banner from '../../../images/tnImages/ROR2.PNG'
+import Nier_Banner from '../../../images/tnImages/nier-automata-.jpg'
+import Destiny_Banner from '../../../images/tnImages/D2.PNG'
+ 
 
 export const topGames = {
     DS3: {

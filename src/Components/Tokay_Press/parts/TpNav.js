@@ -11,6 +11,7 @@ export const TpNav = () => {
                 <Navbar bg="" expand="lg" className="container">
                     <a href="/Tokay_Press/Home">
                     <IMG src={Logo} className="py-2 d-none d-sm-flex" alt="The Tokay Press Logo" width="250px" />
+                    <IMG src={Logo} className="py-2 d-sm-none" alt="The Tokay Press Logo" width="150px" />
                     </a>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

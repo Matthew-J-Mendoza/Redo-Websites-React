@@ -1,3 +1,6 @@
+.HH_Font{
+    font: normal normal normal 20px/26px Dosis;
+}
 .navlayout{
     background-color: #000324 !important;
 }
@@ -75,7 +78,7 @@
     padding-top: 2%;
     padding-bottom: 5%;
 }
-.t{
+.CardSizeMatch{
     display: flex;
     height: 100rem;
     max-height:45rem;

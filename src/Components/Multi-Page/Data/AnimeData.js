@@ -1,29 +1,29 @@
 
 
 //Thumbnails
-import GW_Thumb from '../../../images/tgImages/GW2.PNG'
-import RWB_Thumb from '../../../images/tgImages/RW2.PNG'
-import Naruto_Thumb from '../../../images/tgImages/N1.PNG'
-import School_Live_Thumb from '../../../images/tgImages/LS2.PNG'
-import FMA_Thumb from '../../../images/tgImages/FMAB2.PNG'
-import DBZ_Thumb from '../../../images/tgImages/DB2.PNG'
-import HxH_Thumb from '../../../images/tgImages/H2.PNG'
-import GL_Thumb from '../../../images/tgImages/GL2.PNG'
-import DrStone_Thumb from '../../../images/tgImages/DRS2.PNG'
-import DN_Thumb from '../../../images/tgImages/DN2.PNG'
+import GW_Thumb from '../../../images/tnImages/GW2.PNG'
+import RWB_Thumb from '../../../images/tnImages/RW2.PNG'
+import Naruto_Thumb from '../../../images/tnImages/N1.PNG'
+import School_Live_Thumb from '../../../images/tnImages/LS2.PNG'
+import FMA_Thumb from '../../../images/tnImages/FMAB2.PNG'
+import DBZ_Thumb from '../../../images/tnImages/DB2.PNG'
+import HxH_Thumb from '../../../images/tnImages/H2.PNG'
+import GL_Thumb from '../../../images/tnImages/GL2.PNG'
+import DrStone_Thumb from '../../../images/tnImages/DRS2.PNG'
+import DN_Thumb from '../../../images/tnImages/DN2.PNG'
 
 
 //Banners
-import GW_Banner from '../../../images/tgImages/GoldenWind2.jpg'
-import RWB_Banner from '../../../images/tgImages/rwby-banner.png'
-import Naruto_Banner from '../../../images/tgImages/Naruto.jpg'
-import School_Live_Banner from '../../../images/tgImages/LS2.PNG'
-import FMA_Banner from '../../../images/tgImages/FMAB2.PNG'
-import DBZ_Banner from '../../../images/tgImages/DB2.PNG'
-import HxH_Banner from '../../../images/tgImages/H2.PNG'
-import GL_Banner from '../../../images/tgImages/Gurren-Lagann-1-1024x512.jpg'
-import DrStone_Banner from '../../../images/tgImages/drStone.jpeg'
-import DN_Banner from '../../../images/tgImages/DeathNote.jpg'
+import GW_Banner from '../../../images/tnImages/GoldenWind2.jpg'
+import RWB_Banner from '../../../images/tnImages/rwby-banner.png'
+import Naruto_Banner from '../../../images/tnImages/Naruto.jpg'
+import School_Live_Banner from '../../../images/tnImages/LS2.PNG'
+import FMA_Banner from '../../../images/tnImages/FMAB2.PNG'
+import DBZ_Banner from '../../../images/tnImages/DB2.PNG'
+import HxH_Banner from '../../../images/tnImages/H2.PNG'
+import GL_Banner from '../../../images/tnImages/Gurren-Lagann-1-1024x512.jpg'
+import DrStone_Banner from '../../../images/tnImages/drStone.jpeg'
+import DN_Banner from '../../../images/tnImages/DeathNote.jpg'
 
 
 

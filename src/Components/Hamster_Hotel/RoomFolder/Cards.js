@@ -6,7 +6,7 @@ import {Card, Button } from 'react-bootstrap';
 export const RoomCard = (Props) => {
     return (
         <div className="d-flex justify-content-center mt-4 ">
-            <Card style={{ width: '26rem' }} className="t">
+            <Card style={{ width: '26rem' }} className="CardSizeMatch">
                 <Card.Img variant="top" src={Props.img} alt='Room-Card-Img' />
                 <Card.Body className="">
                     <h2 className=" Dosis">{Props.data.title}</h2>

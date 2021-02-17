@@ -29,6 +29,7 @@ componentDidMount(){
 }
 componentWillUnmount(){
   clearInterval(this.PR_BG)
+  document.getElementById('body').className = ''
 }
 
   render(){

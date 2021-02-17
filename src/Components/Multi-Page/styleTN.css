@@ -1,6 +1,7 @@
 .TwoGuysBg{
-    color: white;
-    
+  background-color: rgb(87, 87, 87);
+    padding-bottom: 4rem;
+    color: white
   }
 
 .abs-center-x {

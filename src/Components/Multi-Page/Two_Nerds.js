@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import {Choose} from './pages/index/WelcomePage'
+import {Choose} from './pages/WelcomePage'
 import './styleTN.css'
 import { Articlepage } from "./pages/Article";
 import {GamePage} from "./pages/Games"
@@ -39,11 +39,12 @@ export class Two_Nerds extends React.Component{
 }
 componentDidMount(){
   this.TN_BG = setInterval(() => {
-      document.getElementById('body').className = 'bg-secondary'
+      document.getElementById('body').className = 'TwoGuysBg'
   }, 100);
 }
 componentWillUnmount(){
   clearInterval(this.TN_BG)
+  document.getElementById('body').className = ''
 }
 
 
@@ -51,7 +52,7 @@ componentWillUnmount(){
   render(){
     return(
 
-<div className="TwoGuysBg">
+<div >
   <RWNavBar/>
   <div className="mt-5 pt-5"/>
         <Router>

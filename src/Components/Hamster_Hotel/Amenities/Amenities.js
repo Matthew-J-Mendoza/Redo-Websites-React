@@ -7,7 +7,7 @@ import pool from '../../../images/hhImages/pool.png'
 
 export const AmenitiesSection = () =>{
     return(
-        <div>
+        <div id="Amenities" className="mt-5">
             <Container fluid className="amenities-background">
                 <Row className="amenities-row-margin">
                     <Col className="text-center mb-5" lg={12}>

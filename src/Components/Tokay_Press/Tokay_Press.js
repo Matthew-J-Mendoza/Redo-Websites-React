@@ -14,20 +14,12 @@ import {LocationSection} from './parts/Sections/Location'
 import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
 
 export class TokayPressPage extends React.Component{
-  componentDidMount(){
-    //console.log('COmponent Did Mount fired')
-    this.PR_BG = setInterval(() => {
-        document.getElementById('body').className = 'Tokay_Body'
-    }, 100);
-  }
-  componentWillUnmount(){
-    clearInterval(this.PR_BG)
-  }
+  
 
 
   render(){
     return(
-      <div>
+      <div className="TP-Font">
         <RWNavBar/>
         <TpNav/>
         <Router>

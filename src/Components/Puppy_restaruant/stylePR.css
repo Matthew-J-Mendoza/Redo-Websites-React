@@ -4,6 +4,7 @@
 }
 .Puppy_Resturant_BG{
     background-image: url("../../images/prImages/bgtexture.jpg");
+    padding-bottom: 5rem;
   }
 
 @font-face{
@@ -298,7 +299,7 @@ Index and menu page
 }
 
 
-.f{
+.HomeImage{
     background-image: url('../../images/prImages/HomeImage.jpg');
     background-size: contain;
     background-repeat: no-repeat;

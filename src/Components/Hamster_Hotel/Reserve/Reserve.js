@@ -4,7 +4,7 @@ import {ReserveInput} from './input'
 
 export const ReserveSection = () =>{
     return(
-        <div>
+        <div id="Reserve">
             <Container className="reserve-container">
                 <Row className="reserve-mini-nav d-flex justify-content-center">
                     <Col lg={12}>

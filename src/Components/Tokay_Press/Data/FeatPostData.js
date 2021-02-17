@@ -71,6 +71,7 @@ export const PostData = {
         Long_Desc: <p>Wishing everyone who has served our country a Happy Veteran's Day and a big thank you
         especially to our very own Jon Peters, our pressman, who served in the Marines.  Take a look at some flyers we've designed for past Veteran's Day celebrations in Lincoln Center.</p>,
         Images: [vet1,vet2,vet3],
+        PostThumbnail: vet1,
         Color: "lightBlue"
     },
 
@@ -80,6 +81,7 @@ export const PostData = {
     Short_Desc: "Here’s the invitation suite for the 2018 Garden Fair. These were a little different because we designed them vertically to fit into a standard No. 10 busines envelope.",
     Long_Desc: <GardenFair1/>,
     Images: [vgf1,vgf2,vgf3],
+    PostThumbnail: vgf1,
     Color: "lightPink"
     },
 
@@ -89,6 +91,7 @@ export const PostData = {
     Short_Desc: "A change has come to #TokayPress and her name is Valerie! Her amazing skill with pen and paper and creative spirit means hand drawn typography and custom illustrations!",
     Long_Desc: <p>A change has come to #TokayPress and her name is Valerie! Her amazing skill with pen and paper and creative spirit means hand drawn typography and custom illustrations for you! She’s sweet, smart, and fun and we are proud to call her part of the Tokay Family!</p>,
     Images: [Val,Ruby,Diane,Jonny],
+    PostThumbnail: Val,
     Color: "lightYellow",
     },
     Valley_Garden_Fair_1: {
@@ -97,6 +100,7 @@ export const PostData = {
     Short_Desc: "Falls in full effect but we wanted to share a little look back on spring with this invitation suite we did for the Children’s Home Auxiliary this past year.",
     Long_Desc: <p>Falls in full effect but we wanted to share a little look back on spring with this invitation suite we did for the Children’s Home Auxiliary this past year. Stay tuned to see how these invitations have changed through the years. We’ve enjoyed working with the Auxiliary for the past few years on their invitations and day of signage. #tokaypress #invitationdesign #design #stocktonca</p>,
     Images: [vgfa1,vgfa2,vgfa3],
+    PostThumbnail: vgfa1,
     Color: "lightBlue"
     },
     Congrats_Katie: {
@@ -105,6 +109,7 @@ export const PostData = {
     Short_Desc: "And that’s a wrap on another wedding invitation this season An simple but elegant, black and white invitation suite for @ktwipfli designed by @valerieros3",
     Long_Desc: <CongratsKate/>,
     Images: [wipfli,Invite1,Invite2,Invite3],
+    PostThumbnail: wipfli ,
     Color: "lightPink"
     },
     MoonLight: {
@@ -112,7 +117,8 @@ export const PostData = {
     Date: 'August 30, 2020',
     Short_Desc: "We are so happy to have worked on these invitations for ACS Moonlight Gala Stockton again this Year! Joseph did an amazing job with the design!",
     Long_Desc: <p>We are so happy to have worked on these invitations for ACS Moonlight Gala Stockton again this Year! Joseph did an amazing job with the design!</p>,
-    Images: [moon1,moon2,moon3,moon4,moon5],
+    Images: [moon2,moon3,moon4,moon5],
+    PostThumbnail:moon1 ,
     Color: "lightYellow"
     }
 }

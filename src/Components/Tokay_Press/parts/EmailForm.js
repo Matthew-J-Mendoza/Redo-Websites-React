@@ -8,14 +8,14 @@ import React from 'react'
 
 export class EmailForms extends React.Component{
     
-    Submit(){
-        console.log('asdfas')
+    Submit=()=>{
+        
         let messageBtn = document.getElementById("messageBtn");
 let inputName = document.getElementById('NameInput');
 let inputEmail = document.getElementById('formBasicEmail');
 let inputMessage = document.getElementById('exampleForm.ControlTextarea1');
 
-if (inputName.value != "" && inputEmail.value !="" && inputEmail.value!= ""){
+if (inputName.value !== "" && inputEmail.value !=="" && inputEmail.value!== ""){
     messageBtn.classList.add('messageSent');
     messageBtn.innerText = "MESSAGE SENT";
     alert("Thank you, "+ inputName.value+"! We will contact you soon at the email you provided: ("+inputEmail.value+").");

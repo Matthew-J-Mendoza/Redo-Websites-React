@@ -2,7 +2,9 @@
     margin-left: 8%;
     margin-right: 8%;
 }
-
+.Puppy_Resturant_BG{
+    background-image: url("../../images/prImages/bgtexture.jpg");
+  }
 
 @font-face{
     font-family: 'Montauk';
@@ -295,3 +297,10 @@ Index and menu page
     }
 }
 
+
+.f{
+    background-image: url('../../images/prImages/HomeImage.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+}

@@ -1,22 +1,47 @@
-.Puppy_Resturant_BG{
-    background-image: url("../../images/prImages/bgtexture.jpg");
-  }
-  .Hub-Cards{
-    border: solid black 2px;
-    border-radius: .25rem;
-    max-width:23rem;
-    max-height:25rem;
-    transition:  .5s;
 
+  .Hub-Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(74, 196, 253); */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2.5rem;
+    box-shadow: 0px 0px 10px rgb(49, 49, 49);
+    height: 20rem;
+    max-width: 50rem;
+    width: 20rem;
+    transition: .5s;
+    border: 10px solid rgba(53, 53, 53, 0.377);
+    cursor: pointer;
+    text-decoration: none !important;
   }
   .Hub-Cards:hover{
-    box-shadow: 0px 10px 10px #888888;
-    transition:  .5s;
+    box-shadow: 0px 0px 20px grey;
+    transition: .5s;
+    size: 20rem;
+    border: 10px solid rgb(255, 255, 255);
+    
+    
   }
-  .Hub_Img{
-    max-width: 100%;
-    max-height: 100%;
-    height: 10rem;
-    width: 40rem;
-   
+  .Hub-Card-Text:hover{
+    text-decoration: wavy !important;
   }
+  .HubCardImg{
+    max-width: 15rem;
+    max-height: 40rem;
+  }
+  .HHcard{
+    background-color: #000324 ;
+  }
+  .TPcard{
+    background-color: rgb(238, 169, 113);
+  }
+  .TNcard{
+    background-color: rgb(94, 94, 94);
+  }
+  .PRcard{
+    background-color: rgb(238, 169, 113);
+  }
+

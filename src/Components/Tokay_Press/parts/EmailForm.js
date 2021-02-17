@@ -29,7 +29,7 @@ export const EmailForms = () => {
                 </Form.Group>
                 <Row>
                     <Col className="d-flex justify-content-end">
-                    <Button variant="primary" id="messageBtn" className="btn btn-brightblue TP-btn"><i class="far fa-envelope pr-1"></i><b>SEND MESSAGE</b></Button>
+                    <button variant="primary" id="messageBtn" className="btn btn-brightblue TP-btn"><i class="far fa-envelope pr-1"></i><b>SEND MESSAGE</b></button>
                     </Col>
                 </Row>
         </Form>

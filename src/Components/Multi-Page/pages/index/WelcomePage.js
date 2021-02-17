@@ -10,7 +10,7 @@ import {
 export const Choose = () => {
     return (
         <div>
-            <Navbar bg="dark" expand="lg" className="text-light">
+            <Navbar fixed="top" bg="dark" expand="lg" className="text-light">
                 <h2 className="titleFix">Cool guy easter egg</h2>
                 <h2 className="abs-center-x">By Mendoza and Sean</h2>
             </Navbar>

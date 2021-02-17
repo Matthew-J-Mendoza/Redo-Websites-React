@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Logo from '../../../../images/TPimages/TokayLogoFull.svg'
+import {IMG} from '../../../Shared/img'
 
 
 export const LocationSection =()=>{
@@ -10,11 +11,11 @@ export const LocationSection =()=>{
                 <Row>
                     <Col xs={12} sm={5} lg={3} sm={{ order: 1 }} className="d-flex d-sm-none" >
                     <Container fluid className="d-flex justify-content-center pb-4">
-                    <img src={Logo} alt="Tokay Press Logo" width="150rem" />
+                    <IMG src={Logo} alt="Tokay Press Logo" width="150rem" />
                     </Container>
                     </Col>
                     <Col xs={12} lg={3} sm={6} xs={{ order: 1 }}   sm={{ order: 1 }} className="d-none d-sm-block ">
-                    <img src={Logo} alt="Tokay Press Logo" width="70%" />
+                    <IMG src={Logo} alt="Tokay Press Logo" width="70%" />
                     </Col>
                     {/* PUT SMALLER LOGO HERE */}
 

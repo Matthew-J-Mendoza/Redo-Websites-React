@@ -88,7 +88,7 @@ export class AboutSection extends React.Component{
 
     render(){
         return(
-            <div className="anchor AboutUs">
+            <div id="About" className="anchor AboutUs">
                 <Container fluid className="d-none d-lg-block  pb-5">
                     <Container>
                         <Row className="d-flex justify-content-center">

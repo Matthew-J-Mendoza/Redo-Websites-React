@@ -20,7 +20,7 @@ import { TopPicks } from '../Parts/TopPick'
 export const AnimePage = () => {
     return (
         <div>
-            <TgNavBar />
+            <TgNavBar Games={true} />
             <Container>
                 <Row>
                     <Col sm={12}>

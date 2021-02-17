@@ -12,6 +12,7 @@ import {GamePage} from "./pages/Games"
 import {AnimePage} from "./pages/Anime"
 import {topGames} from "./Data/GamesData"
 import {topAnimes} from "./Data/AnimeData"
+import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
 
 
 const GameArticles = Object.entries(topGames).map((key, i)=>{
@@ -31,11 +32,30 @@ const AnimeArticles = Object.entries(topAnimes).map((key, i)=>{
 })
 
 export class Two_Nerds extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={
+        
+    }
+}
+componentDidMount(){
+  //console.log('COmponent Did Mount fired')
+  this.TN_BG = setInterval(() => {
+      document.getElementById('body').className = 'bg-secondary'
+  }, 100);
+}
+componentWillUnmount(){
+  clearInterval(this.TN_BG)
+}
+
+
+
   render(){
     return(
 
 <div className="TwoGuysBg">
-  
+  <RWNavBar/>
+  <div className="mt-5 pt-5"/>
         <Router>
           <Switch>
           <Route exact path="/Multi-Page/" component={Choose}/>

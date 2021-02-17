@@ -10,7 +10,7 @@ import Skittles from '../../../images/prImages/doxie2.jpg'
 import Mario from '../../../images/prImages/staffie.jpg'
 //Header
 import SBG from '../../../images/prImages/AboutMain.jpg'
-
+import {IMG} from '../../Shared/img'
 
 export const AboutPage = ()=>{
     return(
@@ -18,7 +18,7 @@ export const AboutPage = ()=>{
             <Container fluid className="my-5">
                 <Row>
                     <Col sm={12} lg={5}>
-                    <img src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg" alt="Two Dogs"/>
+                    <IMG src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg" alt="Two Dogs"/>
                     </Col>
                     <Col sm={12} lg={7} className="white">
                     <h1 className="card-title fugazTitle ">The Story Behind the Grill</h1>

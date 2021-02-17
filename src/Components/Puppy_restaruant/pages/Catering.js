@@ -4,7 +4,7 @@ import {PRheader} from '../parts/Header'
 import catering1 from '../../../images/prImages/catering1.jpg'
 import catering2 from '../../../images/prImages/catering2.jpg'
 import catering3 from '../../../images/prImages/catering3.jpg'
-
+import {IMG} from '../../Shared/img'
 
 export const CateringPage = () =>{
     return (
@@ -20,10 +20,10 @@ export const CateringPage = () =>{
            </div>
                     </Col>
                     <Col sm={12}  className="mb-5 h-100 d-md-none">
-                    <img src={OCS}  height="1rem" alt="image/AboutMain.jpg" alt="Main" />
+                    <IMG src={OCS}  height="1rem" alt="image/AboutMain.jpg" />
                     </Col> 
-                    <Col  lg={5} className="mb-5 h-100 d-none d-md-block">
-                    <img src={OCS} width="100%" height="360rem" alt="image/AboutMain.jpg" alt="Main" />
+                    <Col  lg={5} className="mb-5 d-none d-md-block mh-100">
+                    <IMG src={OCS} width="100%" height="100%" alt="image/AboutMain.jpg" />
                     </Col>
                     <Col sm={12} lg={7} className=" h-100 white montaukF">
                     <h1 className="card-title fugazTitle ">Our Catering Services</h1>
@@ -37,13 +37,13 @@ export const CateringPage = () =>{
             <Container fluid>
                 <Row>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <img src={catering1} alt=""  width="105%" height="90%" alt="catering1"></img>
+                    <IMG src={catering1} alt=""  width="105%" height="90%" alt="catering1"/>
                     </Col>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <img src={catering2} alt=""  width="105%" height="90%" alt="catering2"></img>
+                    <IMG src={catering2} alt=""  width="105%" height="90%" alt="catering2"/>
                     </Col>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <img src={catering3} alt=""  width="105%" height="90%" alt="catering3"></img>
+                    <IMG src={catering3} alt=""  width="105%" height="90%" alt="catering3"/>
                     </Col>
                 </Row>
             </Container>

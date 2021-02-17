@@ -12,10 +12,12 @@ import {TpNav} from "./parts/TpNav"
 import {TpFooter} from "./parts/TpFooter"
 import {Contact_Info} from './parts/Sections/Connect'
 import {LocationSection} from './parts/Sections/Location'
-import { Container } from "react-bootstrap";
+import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
+
 export const TokayPressPage =()=>{
   return(
     <div>
+      <RWNavBar/>
       <TpNav/>
       <Router>
         <Switch>

@@ -1,13 +1,13 @@
 import { Carousel } from 'react-bootstrap';
 import Nier from "../../../images/tgImages/N2.PNG"
 import Destiny from "../../../images/tgImages/D2.PNG"
-
+import {IMG} from '../../Shared/img'
 export const TopPicks = (Props) =>{
     return(
         <Carousel>
   <Carousel.Item>
     <a href={Props.ChandlersPick.Pathway}>
-    <img  
+    <IMG  
       className="d-block w-100"
       src={Props.ChandlersPick.Thumbnail}
       alt="First slide"
@@ -16,7 +16,7 @@ export const TopPicks = (Props) =>{
   </Carousel.Item>
   <Carousel.Item>
     <a href={Props.MattsPick.Pathway}>
-    <img  
+    <IMG  
       className="d-block w-100"
       src={Props.MattsPick.Thumbnail}
       alt="Third slide"

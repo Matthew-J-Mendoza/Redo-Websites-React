@@ -403,6 +403,9 @@ body {
     background-color: #89DDD8;
     border-color: #f8f9fa
 }
+.btn-brightblue:hover{
+    background-color: rgb(141, 214, 208);
+}
 
 .brightblue {
     color: #89DDD8;

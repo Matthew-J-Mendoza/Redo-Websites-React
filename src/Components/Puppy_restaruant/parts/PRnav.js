@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import Logo from "../../../images/prImages/MuzzlesLogo.png"
-
+import {IMG} from '../../Shared/img'
 export const PrNav = () => {
     return (
         <div >
@@ -9,7 +9,7 @@ export const PrNav = () => {
                 <Row>
                     <Col sm={3}>
                         <a href="/Puppy_Restaruant/">
-                            <img alt="Logo" src={Logo} width="70%" />
+                            <IMG alt="Logo" src={Logo} width="70%" />
                         </a>
                     </Col>
                     <Col sm={9}>
@@ -35,7 +35,7 @@ export const PrNav = () => {
                 <Row>
                     <Col sm={3}>
                         <a href="/Puppy_Restaruant/">
-                            <img alt="Logo" src={Logo} width="200rem" />
+                            <IMG alt="Logo" src={Logo} width="200rem" />
                         </a>
                     </Col>
                     <Col sm={12}>

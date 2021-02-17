@@ -3,6 +3,7 @@ import { Modal, Button, Row,Container,Col } from 'react-bootstrap'
 import img1 from '../../../../images/TPimages/vet1.jpg'
 import img2 from '../../../../images/TPimages/vet2.jpg'
 import moon1 from '../../../../images/TPimages/moon1.jpg'
+import {IMG} from '../../../Shared/img'
 export class ModImages extends React.Component{
     constructor(props){
       super(props)
@@ -19,7 +20,7 @@ export class ModImages extends React.Component{
             <Row className='px-2 pb-2'>
         <Col className="px-0 pr-2" xs={10}>
         <div className="containerImg displayImg">
-        <img src={this.state.BigImg} className="ContainerIMG" alt="Main Image"/>
+        <IMG src={this.state.BigImg} className="ContainerIMG" alt="Main Image"/>
         
         </div>
         </Col>
@@ -51,7 +52,7 @@ const ImgBtn =(props)=>{
   const handleClick =()=> props.onClick(props.IMGtag)
   return(
     <Col xs={12} className="columnImg" onClick={handleClick}>
-    <img src={props.IMGtag} className="imgSize" alt="SideImg"/>
+    <IMG src={props.IMGtag} className="imgSize" alt="SideImg"/>
   </Col>
   )
 }

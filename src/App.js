@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { DropdownButton,Dropdown } from 'react-bootstrap';
+import { Navbar,Nav, ButtonGroup, Dropdown, DropdownButton } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -29,9 +29,10 @@ class App extends React.Component {
   }
   render(){
     return (
-      < div className="">
-      
-      <Router>
+      < div>
+        
+
+      <Router className="">
       
       
         <Switch>
@@ -53,7 +54,7 @@ class App extends React.Component {
   
         </Switch>
       </Router>
-      
+      <div className="GlobalNavSpace"/>
       </ div>
     )
   }

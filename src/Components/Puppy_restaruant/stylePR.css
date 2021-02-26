@@ -34,6 +34,19 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.fugaz-Link{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B !important;
+}
+.fugaz-Link:active{
+    color: #5F002B !important;
+
+}
+.fugaz-Link:hover{
+    color: #5F002B !important;
+
+}
+
 .fugaz{
     font-family: 'Fugaz One', cursive;
     color: #5F002B;

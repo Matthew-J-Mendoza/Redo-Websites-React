@@ -20,14 +20,13 @@ class App extends React.Component {
       < div>
         
 
-      <Router className="">
+      <Router>
       
       
         <Switch>
   
-          <Route exact path="/">
-          <HubPage />
-          </Route>
+          <Route exact path="/" component={HubPage}/>
+          
           <Route path="/Hamster_Hotel" component={HamsterHotel}/>
           
           

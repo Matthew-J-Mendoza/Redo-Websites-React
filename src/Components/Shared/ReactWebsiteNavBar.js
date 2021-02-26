@@ -7,11 +7,11 @@ import {
 export const RWNavBar=()=>{
     return(
         <Navbar bg="dark" fixed='bottom' variant='dark' className="d-flex justify-content-center">
-        <Nav.Link href="/Multi-Page" className="d-lg-block d-none text-light" >Two Nerds</Nav.Link>
-        <Nav.Link href="/Hamster_Hotel" className="d-lg-block d-none text-light" >La Petite Masion</Nav.Link>
-        <Nav.Link href="/Puppy_Restaruant" className="d-lg-block d-none text-light" >Muzzles</Nav.Link>
-        <Nav.Link href="/Tokay_Press/Home" className="d-lg-block d-none text-light" >Tokay Press</Nav.Link>
-        <Nav.Link href="/" className="d-lg-block d-none text-light" >HUB</Nav.Link>
+        <Nav.Link as={Link} to="/Multi-Page" className="d-lg-block d-none text-light" >Two Nerds</Nav.Link>
+        <Nav.Link as={Link} to="/Hamster_Hotel" className="d-lg-block d-none text-light" >La Petite Masion</Nav.Link>
+        <Nav.Link as={Link} to="/Puppy_Restaruant" className="d-lg-block d-none text-light" >Muzzles</Nav.Link>
+        <Nav.Link as={Link} to="/Tokay_Press/Home" className="d-lg-block d-none text-light" >Tokay Press</Nav.Link>
+        <Nav.Link as={Link} to="/" className="d-lg-block d-none text-light" >HUB</Nav.Link>
         <DropdownButton className="d-lg-none"
         as={ButtonGroup}
         key='up'

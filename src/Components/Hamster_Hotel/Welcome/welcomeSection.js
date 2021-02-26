@@ -4,14 +4,15 @@ import Finest from "../../../images/hhImages/awardfinest.png"
 import Faction from "../../../images/hhImages/awardsatisfaction.png"
 import Genuine from "../../../images/hhImages/awardgenuine.png"
 import {AwardImg} from "./awards"
+import { IMG } from "../../Shared/img"
 
 export const Welcome = () => {
     return (
         <div>
             <Container id="Overview" className="mt-4">
                 <Row>
-                    <Col lg={4}>
-                        <img src={hamsterhome} alt="Welcome Image" width="90%" />
+                    <Col lg={4} xs={12}>
+                        <IMG src={hamsterhome} alt="Welcome Image" width="90%" className="d-flex justify-content-center"/>
                     </Col>
                     <Col lg={8}>
                         <Row>

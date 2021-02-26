@@ -22,12 +22,14 @@ export class TokayPressPage extends React.Component{
       <div className="TP-Font">
         <RWNavBar/>
         <TpNav/>
-        <Router>
-          <Switch>
-            <Route exact path="/Tokay_Press/Featured" component={FeaturedPage}/>
-            <Route exact path="/Tokay_Press/Home" component={TPHome}/>
-          </Switch>
-        </Router>
+     
+         
+            <Switch>
+              <Route exact path="/Tokay_Press/Home" component={TPHome}/>
+              <Route exact path="/Tokay_Press/Featured" component={FeaturedPage}/>
+            </Switch>
+         
+    
         <Contact_Info/>
         <LocationSection/>
         <TpFooter/>

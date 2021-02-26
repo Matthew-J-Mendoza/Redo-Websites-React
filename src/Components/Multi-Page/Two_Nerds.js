@@ -55,8 +55,8 @@ componentWillUnmount(){
 <div >
   <RWNavBar/>
   <div className="mt-5 pt-5"/>
-        <Router>
-          <Switch>
+       
+          
           <Route exact path="/Multi-Page/" component={Choose}/>
           
           
@@ -65,9 +65,9 @@ componentWillUnmount(){
           <Route exact path="/Multi-Page/Animes" component={AnimePage}/>
           {GameArticles}
           {AnimeArticles}
-          </Switch>
+          
          
-        </Router>
+      
   
 </div>
     )

@@ -6,8 +6,8 @@ import {SocialMedia} from '../socialMedia'
 import {EmailForms} from '../EmailForm'
 export const Contact_Info = () =>{
     return(
-        <Container id="Contact" fluid className="connectHolder boxShadow pt-5">
-            <Container>
+        <Container fluid className="connectHolder boxShadow pt-5">
+            <Container id="Contact">
             <Row className="pb-5 text-center text-md-left">
                 <Col xs={12} md={6} className="pr pr-md-5">
                 <h2 className="pb-0 pb-lg-5 Tp-h2">

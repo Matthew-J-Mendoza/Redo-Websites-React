@@ -2,8 +2,9 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
 } from "react-router-dom";
-import {PrNav} from "./parts/PRnav"
+import {PrNav} from "./parts/NavBar/PRnav"
 import {Footer} from "./parts/PRfooter"
 import './stylePR.css'
 import {PhotoPage} from './pages/Photos'
@@ -37,13 +38,11 @@ componentWillUnmount(){
       <div>
         <RWNavBar/>
         <PrNav/>
-        <Router>
-           <Route exact path="/Puppy_Restaruant/" component={HomePage}  />
+          <Route exact path="/Puppy_Restaruant/" component={HomePage}  />
           <Route exact path="/Puppy_Restaruant/About" component={AboutPage} />
           <Route exact path="/Puppy_Restaruant/Menu" component={MenuPage} />
           <Route exact path="/Puppy_Restaruant/Catering" component={CateringPage} />
           <Route exact path="/Puppy_Restaruant/Photo" component={PhotoPage}/>
-        </Router>
         <Footer/>
       </div>
     )

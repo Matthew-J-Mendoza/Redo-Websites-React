@@ -1,5 +1,7 @@
 import {Nav, Navbar} from 'react-bootstrap';
-
+import {
+    Link
+} from "react-router-dom";
 
 
 
@@ -11,8 +13,8 @@ export const TgNavBar = (props) =>{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/Multi-Page/Animes" className={`nav-link ${props.Anime === true ? 'active' : ''}`}>Animes</Nav.Link>
-                        <Nav.Link href="/Multi-Page/Games" className={`nav-link ${props.Games === true ? 'active' : ''}`}>Games</Nav.Link>
+                        <Nav.Link as={Link} to="/Multi-Page/Animes" className={`nav-link ${props.Anime === true ? 'active' : ''}`}>Animes</Nav.Link>
+                        <Nav.Link as={Link} to="/Multi-Page/Games" className={`nav-link ${props.Games === true ? 'active' : ''}`}>Games</Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>

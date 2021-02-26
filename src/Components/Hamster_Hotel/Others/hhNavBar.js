@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../HHstyle.css'
 import Logo from "../../../images/hhImages/Logo.png"
 import {IMG} from '../../Shared/img'
-
 export const HHnav = () =>{
     return(
             <Navbar bg="dark" variant="dark" expand="lg" className="navlayout ">

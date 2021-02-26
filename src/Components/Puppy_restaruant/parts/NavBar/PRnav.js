@@ -16,7 +16,7 @@ export const PrNav = () => {
             <Row>
                 <Col xs={3}>
                     <Link to="/Puppy_Restaruant/">
-                        <IMG src={Logo} />
+                        <IMG src={Logo} alt="Logo" />
                     </Link>
                 </Col>
                 <Col xs={9} className="d-flex justify-content-end align-items-center">
@@ -28,7 +28,7 @@ export const PrNav = () => {
         <Row>
             <Col xs={3}>
             <Link to="/Puppy_Restaruant/">
-                        <IMG src={Logo} />
+                        <IMG src={Logo} alt="Logo" />
                     </Link>
             </Col>
             <Col xs={12} className="d-flex  flex-column">

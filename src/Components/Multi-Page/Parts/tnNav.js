@@ -9,7 +9,7 @@ export const TgNavBar = (props) =>{
     return(
         <div>
             <Navbar fixed='top'  bg="dark" expand="lg" variant="dark" >
-                <Navbar.Brand href=""><h2>Two Nerds</h2></Navbar.Brand>
+                <Navbar.Brand><h2>Two Nerds</h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

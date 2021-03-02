@@ -1,10 +1,9 @@
 
-import { Nav, Navbar, Container, Col, Row, NavbarBrand } from 'react-bootstrap';
+import { Nav} from 'react-bootstrap';
 import {
     Link
 } from "react-router-dom";
-import Logo from "../../../../images/prImages/MuzzlesLogo.png"
-import { IMG } from '../../../Shared/img'
+
 
 export const PRlinks = (props) => {
     return (

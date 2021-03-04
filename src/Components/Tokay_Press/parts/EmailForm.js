@@ -50,7 +50,7 @@ if (inputName.value !== "" && inputEmail.value !=="" && inputEmail.value!== ""){
                     </Form.Group>
                     <Row>
                         <Col className="d-flex justify-content-end">
-                        <button onClick={this.Submit} type="button" id="messageBtn" className="btn btn-brightblue TP-btn"><i class="far fa-envelope pr-1"></i><b>SEND MESSAGE</b></button>
+                        <button onClick={this.Submit} type="button" id="messageBtn" className="btn btn-brightblue TP-btn"><i className="far fa-envelope pr-1"></i><b>SEND MESSAGE</b></button>
                         </Col>
                     </Row>
             </Form>

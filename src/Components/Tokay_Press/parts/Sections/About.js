@@ -115,7 +115,7 @@ export class AboutSection extends React.Component{
                 <Row className="d-flex justify-content-center">
                         <Col xs={12} className="text-center my-5">
                         <h1>About Us</h1>
-                        <p><div class="fas fa-long-arrow-alt-left"></div> Swipe to see more cards</p>
+                        <p className="fas fa-long-arrow-alt-left"> Swipe to see more cards</p>
                         </Col>
                         </Row>
                         <div className="scrolling-wrapper d-lg-none pb-5">

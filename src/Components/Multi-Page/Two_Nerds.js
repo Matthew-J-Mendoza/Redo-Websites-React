@@ -14,18 +14,18 @@ import {topAnimes} from "./Data/AnimeData"
 import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
 
 
-const GameArticles = Object.entries(topGames).map((key, i)=>{
+const GameArticles = Object.entries(topGames).map((GameInfo,i)=>{
   return (
-    <Route path={key[1].Pathway}>
-    <Articlepage Media={key[1]} Title={key[1].title} />
+    <Route key={i} path={GameInfo[1].Pathway}>
+    <Articlepage Media={GameInfo[1]} Title={GameInfo[1].title} />
   </Route>
   )
 })
 
-const AnimeArticles = Object.entries(topAnimes).map((key, i)=>{
+const AnimeArticles = Object.entries(topAnimes).map((AnimeInfo, i)=>{
   return (
-    <Route path={key[1].Pathway}>
-    <Articlepage Media={key[1]} Title={key[1].title} />
+    <Route key={i} path={AnimeInfo[1].Pathway}>
+    <Articlepage Media={AnimeInfo[1]} Title={AnimeInfo[1].title} />
   </Route>
   )
 })

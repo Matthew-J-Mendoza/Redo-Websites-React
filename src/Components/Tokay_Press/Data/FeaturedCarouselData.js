@@ -42,7 +42,7 @@ SwagCap: {
 
 export const CarouselArray = Object.entries(Data).map((key, i)=>{
     return(
-        <Carousel.Item className="heroHeight">
+        <Carousel.Item className="heroHeight" key={i}>
             <div>
                 <IMG src={overlay} className="featuredCarousel" alt="image overlay"/>
             </div>

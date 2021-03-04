@@ -10,8 +10,8 @@ export const CardsTg = (Props)=>{
                         <Card className="cardBGColor text-light TGcard">
                             <Card.Img className="cardimg" variant="top" src={Props.game.Thumbnail} alt="Pick-Img"/>
                             <Card.Body>
-                            <h2 class="card-title cardTitleText">{Props.game.title}</h2>
-                            <h3 class="card-text ">{`${Props.game.Author}'s #${Props.game.Tier} Pick`}</h3>
+                            <h2 className="card-title cardTitleText">{Props.game.title}</h2>
+                            <h3 className="card-text ">{`${Props.game.Author}'s #${Props.game.Tier} Pick`}</h3>
                                 <div className="text-center">
                                     <Button as={Link} to={Props.game.Pathway} onClick={scrollTop} className="text-center cardbtn"  variant="primary">Learn More</Button>
                                 </div>

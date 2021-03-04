@@ -5,8 +5,8 @@ import {FeatuedCarousel} from "../parts/FCarousel"
 import {PostData} from '../Data/FeatPostData'
 
 
-const FeatPostCards = Object.entries(PostData).map((key)=>{
-    return (<PostCards Data={key[1]}/>)
+const FeatPostCards = Object.entries(PostData).map((key,i)=>{
+    return (<PostCards key={i} Data={key[1]}/>)
 })
 
 

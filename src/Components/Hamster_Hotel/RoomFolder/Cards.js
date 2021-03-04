@@ -11,17 +11,16 @@ export const RoomCard = (Props) => {
                 <Card.Body className="">
                     <h2 className=" Dosis">{Props.data.title}</h2>
                     <p className=""><b>{Props.data.dimension}</b></p>
-                    <Card.Text>
-                        {Props.data.list.map(thing=>{
-                            return <p className="card-text">{thing}</p>
+                        {Props.data.list.map((thing,i)=>{
+                            return <Card.Text key={i} className="card-text">{thing}</Card.Text>
                         })}
-                    </Card.Text>
                 </Card.Body>
                 <Card.Footer className="room-card-footer">
                     <Button variant="primary" className="room-card-btn" ><b>Reserve</b></Button>
 
                 </Card.Footer>
             </Card>
+            
         </div>
     )
 }

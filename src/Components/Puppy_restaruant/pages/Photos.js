@@ -15,9 +15,9 @@ import photo11 from '../../../images/prImages/photo11.jpg'
 import photo12 from '../../../images/prImages/photo12.jpg'
 const PhotoArray = [photo01,photo02,photo03,photo04,photo05,photo06,photo07,photo08,photo09,photo10,photo11,photo12]
 
-const photoGen = PhotoArray.map(function(x){
+const photoGen = PhotoArray.map(function(src,i){
     return(
-        <Thumbnail img={x}/>
+        <Thumbnail key={i} img={src}/>
     )
 })
 

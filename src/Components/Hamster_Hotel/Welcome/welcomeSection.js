@@ -21,7 +21,7 @@ export const Welcome = () => {
                                 <br />
                             </Col>
                             <Col lg={12}>
-                            <p class="welcome-paragraph">Nestled in the heart of Cavia California, La Petite Maison is a
+                            <p className="welcome-paragraph">Nestled in the heart of Cavia California, La Petite Maison is a
                             luxury hotel designed for the
                             small mammal with extravagence in mind. Escape to the warm comforts of stunning rooms, a
                             relaxing spa, and a pool with a beach side view</p>

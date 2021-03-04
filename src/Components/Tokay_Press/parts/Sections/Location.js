@@ -35,7 +35,7 @@ export const LocationSection =()=>{
                     <Col md={12} lg={6} xs={{ order: 12 }} sm={{ order: 1 }} >
                     <iframe title="a map of Tokay Press' location" className="map-border-white"
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961.5842225574262!2d-121.30544314753945!3d37.9554386669924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900aaf021b69e3%3A0xf58fe15577b56c57!2sTokay%20Press%20Inc!5e0!3m2!1sen!2sus!4v1605246255566!5m2!1sen!2sus"
-						width="100%" height="300px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						width="100%" height="300px" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                     </Col>
                 </Row>
                 </Container>

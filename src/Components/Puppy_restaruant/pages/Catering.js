@@ -9,7 +9,7 @@ import {IMG} from '../../Shared/img'
 export const CateringPage = () =>{
     return (
         <div className="indexFormat">
-            <Container fluid className="my-5">
+            <Container fluid className="">
                 <Row>
                     <Col sm={12}>
                     <PRheader text="Catering"/>
@@ -37,13 +37,13 @@ export const CateringPage = () =>{
             <Container fluid>
                 <Row>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <IMG src={catering1} alt=""  width="105%" height="90%" alt="catering1"/>
+                    <IMG src={catering1} width="105%" height="90%" alt="catering1"/>
                     </Col>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <IMG src={catering2} alt=""  width="105%" height="90%" alt="catering2"/>
+                    <IMG src={catering2} width="105%" height="90%" alt="catering2"/>
                     </Col>
                     <Col sm={12} lg={4} className="my-3 d-flex justify-content-center">
-                    <IMG src={catering3} alt=""  width="105%" height="90%" alt="catering3"/>
+                    <IMG src={catering3}  width="105%" height="90%" alt="catering3"/>
                     </Col>
                 </Row>
             </Container>

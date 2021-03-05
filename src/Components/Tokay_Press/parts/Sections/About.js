@@ -9,8 +9,6 @@ import designIMG from '../../../../images/TPimages/Design.png'
 import productionIMG from '../../../../images/TPimages/Valentines.jpg'
 import solutionIMG from '../../../../images/TPimages/solutions-square.jpg'
 
-const  messagesEndRef = React.createRef();
-
 export class AboutSection extends React.Component{
     constructor(Props){
         super(Props)

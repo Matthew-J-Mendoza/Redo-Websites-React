@@ -5,7 +5,7 @@ import solutionsImg3 from '../../../../images/TPimages/solution-img3.png'
 
 let offers = [['Small Business','Logo Design, Marketing, Web'],['Hospitality','Menus, Event Marketing, Gift Cards & More!'],['Non-Profits','Newsletters, invitations, signs, tickets, programs'],['Professional Services','Letterhead, invitations, signs, tickets, programs'],['School & Teams','perfect bound yearbooks and media guides']].map((item,i)=>{
     return(
-        <div key={i}>
+        <div key={`offers:${i}`}>
         <b>{item[0]}</b>
         <p>{item[1]}</p>
         </div>

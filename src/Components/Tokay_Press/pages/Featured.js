@@ -6,7 +6,7 @@ import {PostData} from '../Data/FeatPostData'
 
 
 const FeatPostCards = Object.entries(PostData).map((key,i)=>{
-    return (<PostCards key={i} Data={key[1]}/>)
+    return (<PostCards key={`PostCards:${i}`} Data={key[1]}/>)
 })
 
 

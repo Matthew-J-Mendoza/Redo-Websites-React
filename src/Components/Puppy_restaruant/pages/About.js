@@ -15,12 +15,12 @@ import {IMG} from '../../Shared/img'
 export const AboutPage = ()=>{
     return(
         <div className="indexFormat">
-            <Container fluid className="my-5">
+            <Container fluid className="">
                 <Row>
                     <Col sm={12} lg={5}>
-                    <IMG src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg" alt="Two Dogs"/>
+                    <IMG src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg"/>
                     </Col>
-                    <Col sm={12} lg={7} className="white">
+                    <Col sm={12} lg={7} className="white pt-1">
                     <h1 className="card-title fugazTitle ">The Story Behind the Grill</h1>
                 <div className="card-text montaukF">
                     <p >Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
@@ -53,7 +53,7 @@ export const AboutPage = ()=>{
                     </Col>
                 </Row>
             </Container>
-            <Container fluid>
+            <Container fluid className="mt-5">
             <Row className="d-flex justify-content-center">
                 <Col sm={12}>
                 <PRheader text="Our Team" />

@@ -86,9 +86,7 @@
     text-align: center;
   }
   /* Article */
-  .header2{
-    margin-left: 20%;
-  }
+  
   .videoFix{
     width: 100% !important;
     height: 100% !important;
@@ -105,8 +103,6 @@
 .article-h1{
   font-size: 400%;
   color: white;
-  margin-top: -8%;
-  font-family: "Times New Roman", Times, serif;
 }
 .article-h2{
   color: white;
@@ -114,7 +110,13 @@
   justify-content: left;
   
 }
-.Article-img{
-  width: 80%;
-  height: 80%; 
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }

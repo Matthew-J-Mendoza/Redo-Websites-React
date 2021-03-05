@@ -10,7 +10,7 @@ export const Footer =()=>{
                     <Col sm={12} lg={6}  className="Footer-right ">
                     <IMG src={footerImg} alt="Footer"  className="footer-Img"/>
                     </Col>
-                    <Col sm={12} lg={6} lg={{ order: "first" }}  className="Footer-left" >
+                    <Col sm={12} lg={{ order: "first" }}  className="Footer-left" >
                     <p>1357 Mutt Street, Rottweiler CA. 12345</p>
                     </Col>
                     <Col sm={12} lg={6} className="Footer-left">

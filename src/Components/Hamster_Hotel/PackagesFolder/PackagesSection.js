@@ -21,8 +21,8 @@ export const PackagesSection =()=>{
                 </Row>
 
                 <Row>
-
-                    <Col lg={6} xs={{order: "last"}} lg={{order: "first"}}>
+                        {/* Return here if something goes wrong */}
+                    <Col lg={{order: "first"}} xs={{order: "last"}}>
                     <PackageDetail title="Full Bloom Package" price="Starting US $1,000.00" desc="Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians."/>
                     </Col>
 

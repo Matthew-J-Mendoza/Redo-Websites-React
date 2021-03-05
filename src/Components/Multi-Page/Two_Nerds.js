@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
   Route
 } from "react-router-dom";
 import {Choose} from './pages/WelcomePage'
@@ -16,7 +14,7 @@ import {RWNavBar} from '../Shared/ReactWebsiteNavBar'
 
 const GameArticles = Object.entries(topGames).map((GameInfo,i)=>{
   return (
-    <Route key={i} path={GameInfo[1].Pathway}>
+    <Route key={`Game:${i}`} path={GameInfo[1].Pathway}>
     <Articlepage Media={GameInfo[1]} Title={GameInfo[1].title} />
   </Route>
   )
@@ -24,7 +22,7 @@ const GameArticles = Object.entries(topGames).map((GameInfo,i)=>{
 
 const AnimeArticles = Object.entries(topAnimes).map((AnimeInfo, i)=>{
   return (
-    <Route key={i} path={AnimeInfo[1].Pathway}>
+    <Route key={`Anime:${i}`} path={AnimeInfo[1].Pathway}>
     <Articlepage Media={AnimeInfo[1]} Title={AnimeInfo[1].title} />
   </Route>
   )

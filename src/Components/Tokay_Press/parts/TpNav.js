@@ -1,9 +1,7 @@
 import { Navbar, Nav,Container, Col } from 'react-bootstrap';
 import Logo from '../../../images/TPimages/TokayLogo.svg'
   import {IMG} from '../../Shared/img'
-  import {
-    Link
-} from "react-router-dom";
+  
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 export const TpNav = (props) => {

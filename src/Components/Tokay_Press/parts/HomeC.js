@@ -6,7 +6,7 @@ import {IMG} from '../../Shared/img'
 
 const CarouselArray = [MainImg,Design,Care].map((img,i)=>{
     return(
-        <Carousel.Item key={i} >
+        <Carousel.Item key={`HomeC:${i}`} >
     <IMG
       className="d-block w-100"
       src={img}

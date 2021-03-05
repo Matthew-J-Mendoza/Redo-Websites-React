@@ -26,7 +26,7 @@ export class ModImages extends React.Component{
         
         <Col xs={2} className='px-0'>
           <div className="rowImg">
-          {this.props.ImgSet.map((img,i)=> <ImgBtn key={i} IMGtag={img} onClick={this.ImgSwap}/>)}
+          {this.props.ImgSet.map((img,i)=> <ImgBtn key={`TP_IMG:${i}`} IMGtag={img} onClick={this.ImgSwap}/>)}
 
 
 

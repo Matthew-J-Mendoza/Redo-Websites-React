@@ -9,17 +9,17 @@ export const LocationSection =()=>{
             <Container fluid className="mapHolder py-5 boxShadow">
                 <Container>
                 <Row>
-                    <Col xs={12} sm={5} lg={3} sm={{ order: 1 }} className="d-flex d-sm-none" >
+                    <Col xs={12} lg={3} sm={{ order: 1 }} className="d-flex d-sm-none" >
                     <Container fluid className="d-flex justify-content-center pb-4">
                     <IMG src={Logo} alt="Tokay Press Logo" width="150rem" />
                     </Container>
                     </Col>
-                    <Col xs={12} lg={3} sm={6} xs={{ order: 1 }}   sm={{ order: 1 }} className="d-none d-sm-block ">
+                    <Col  lg={3} xs={{ order: 1 }}   sm={{ order: 1 }} className="d-none d-sm-block ">
                     <IMG src={Logo} alt="Tokay Press Logo" width="70%" />
                     </Col>
                     {/* PUT SMALLER LOGO HERE */}
 
-                    <Col xs={12} sm={6} lg={3} sm={{ order: 1 }} className="text-center text-sm-left">
+                    <Col xs={12} lg={3} sm={{ order: 1 }} className="text-center text-sm-left">
                     <h2 className="Tp-h2">Visit Us!</h2>
 					<p>948 W. Fremont St.
 						<br/> Stockton, California 95203

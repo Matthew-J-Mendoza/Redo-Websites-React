@@ -39,6 +39,7 @@ componentWillUnmount(){
         <RWNavBar/>
           <Router>
         <PrNav/>
+        <br/>
           <Switch>
           <Route  path="/Puppy_Restaruant/About" component={AboutPage} />
           <Route  path="/Puppy_Restaruant/Menu" component={MenuPage} />

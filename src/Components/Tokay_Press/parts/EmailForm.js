@@ -44,6 +44,8 @@ export class EmailForms extends React.Component{
                     NameValue: "",
                     MessageValue: "",
                 })
+            }else{
+                alert("Uh oh! Please fill out all fields before sending.");
             }
             
         }

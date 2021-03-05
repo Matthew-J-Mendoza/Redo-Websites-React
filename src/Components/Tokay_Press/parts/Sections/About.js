@@ -9,6 +9,7 @@ import designIMG from '../../../../images/TPimages/Design.png'
 import productionIMG from '../../../../images/TPimages/Valentines.jpg'
 import solutionIMG from '../../../../images/TPimages/solutions-square.jpg'
 
+const  messagesEndRef = React.createRef();
 
 export class AboutSection extends React.Component{
     constructor(Props){
@@ -21,6 +22,7 @@ export class AboutSection extends React.Component{
             thing: ['a','b','c']
         }
     }
+    
     designSwitch=()=>{
         //console.log("Works")
         if(this.state.designOpen === false && this.state.slidesOpen === false){
@@ -88,7 +90,7 @@ export class AboutSection extends React.Component{
 
     render(){
         return(
-            <div id="About" className="anchor AboutUs">
+            <div id={"About"} className="anchor AboutUs">
                 <Container fluid className="d-none d-lg-block  pb-5">
                     <Container>
                         <Row className="d-flex justify-content-center">

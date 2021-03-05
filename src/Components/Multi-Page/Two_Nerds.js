@@ -57,14 +57,13 @@ componentWillUnmount(){
   <div className="mt-5 pt-5"/>
        
           
-          <Route exact path="/Multi-Page/" component={Choose}/>
           
-          
+            <Route exact path="/Multi-Page/" component={Choose}/>
           <Route  exact path="/Multi-Page/Games" component={GamePage}/>
-          
           <Route exact path="/Multi-Page/Animes" component={AnimePage}/>
           {GameArticles}
           {AnimeArticles}
+            
           
          
       

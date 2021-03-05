@@ -13,7 +13,7 @@ const FeatPostCards = Object.entries(PostData).map((key,i)=>{
 export const FeaturedPage =()=>{
     return(
         <div>
-        <FeatuedCarousel/>
+        <FeatuedCarousel id="FeatuedCarousel"/>
         <Container className="pt-5">
             <h1 className="text-center Tp-h1">Featured Posts</h1>
 

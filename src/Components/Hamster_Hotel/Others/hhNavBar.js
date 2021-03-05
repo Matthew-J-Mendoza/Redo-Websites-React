@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../HHstyle.css'
 import Logo from "../../../images/hhImages/Logo.png"
 import {IMG} from '../../Shared/img'
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+
 export const HHnav = () =>{
     return(
             <Navbar bg="dark" variant="dark" expand="lg" className="navlayout ">
@@ -14,47 +16,47 @@ export const HHnav = () =>{
     <Container fluid className="d-none d-lg-block">
         <Row className='x' >
             <Col>
-            <Nav.Link className="links" href="#Overview">Overview</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Overview">Overview</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links" href="#Rooms">Rooms</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Rooms">Rooms</Nav.Link>
             </Col>
             <Col lg={0}>
-            <Nav.Link className="links" href="#Packages">Packages</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Packages">Packages</Nav.Link>
             </Col>
             <Col>
             <IMG src={Logo} alt="Navbar-Logo" className="pt-2" />
             </Col>
             <Col>
-            <Nav.Link className="links" href="#Amenities">Amenities</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Amenities">Amenities</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links" href="#Contact">Contact</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Contact">Contact</Nav.Link>
             </Col>
             <Col>
-            <Nav.Link className="links box" href="#Reserve">Reserve</Nav.Link>
+            <Nav.Link className="links box" as={NavLink} to="/Hamster_Hotel/#Reserve">Reserve</Nav.Link>
             </Col>
         </Row>
     </Container>
     <Container fluid className=" d-lg-none">
         <Row className='x text-center' >
             <Col xs={12}>
-            <Nav.Link className="links" href="#Overview">Overview</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Overview">Overview</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#Rooms">Rooms</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Rooms">Rooms</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#Packages">Packages</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Packages">Packages</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#Amenities">Amenities</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Amenities">Amenities</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#Contact">Contact</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Contact">Contact</Nav.Link>
             </Col>
             <Col xs={12}>
-            <Nav.Link className="links" href="#Reserve">Reserve</Nav.Link>
+            <Nav.Link className="links" as={NavLink} to="/Hamster_Hotel/#Reserve">Reserve</Nav.Link>
             </Col>
         </Row>
     </Container>

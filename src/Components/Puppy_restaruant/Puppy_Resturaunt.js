@@ -37,12 +37,16 @@ componentWillUnmount(){
     return(
       <div>
         <RWNavBar/>
+          <Router>
         <PrNav/>
+          <Switch>
+          <Route  path="/Puppy_Restaruant/About" component={AboutPage} />
+          <Route  path="/Puppy_Restaruant/Menu" component={MenuPage} />
+          <Route  path="/Puppy_Restaruant/Catering" component={CateringPage} />
+          <Route  path="/Puppy_Restaruant/Photo" component={PhotoPage}/>
           <Route exact path="/Puppy_Restaruant/" component={HomePage}  />
-          <Route exact path="/Puppy_Restaruant/About" component={AboutPage} />
-          <Route exact path="/Puppy_Restaruant/Menu" component={MenuPage} />
-          <Route exact path="/Puppy_Restaruant/Catering" component={CateringPage} />
-          <Route exact path="/Puppy_Restaruant/Photo" component={PhotoPage}/>
+          </Switch>
+          </Router>
         <Footer/>
       </div>
     )

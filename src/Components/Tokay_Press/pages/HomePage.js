@@ -12,11 +12,12 @@ export class TPHome extends React.Component {
     render() {
         return (
             <div className=" ">
-                <HomeC />
+                <HomeC id="HomeC" />
 
                 <AboutSection />
 
             </div>
+            
         )
     }
 }

@@ -32,7 +32,7 @@ export const PrNav = () => {
                     </Link>
             </Col>
             <Col xs={12} className="d-flex  flex-column">
-            <Nav.Link as={Link} to="/Puppy_Restaruant/About" className="fugaz-Link" >About</Nav.Link>
+            <Nav.Link as={Link} to="/Puppy_Restaruant/About"  className="fugaz-Link" >About</Nav.Link>
             <Nav.Link as={Link} to="/Puppy_Restaruant/Menu" className="fugaz-Link" >Menu</Nav.Link>
             <Nav.Link as={Link} to="/Puppy_Restaruant/Catering" className="fugaz-Link" >Catering</Nav.Link>
             <Nav.Link as={Link} to="/Puppy_Restaruant/Photo" className="fugaz-Link" >Photo</Nav.Link>
@@ -42,3 +42,4 @@ export const PrNav = () => {
         </div>
     )
 }
+

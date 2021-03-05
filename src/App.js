@@ -28,14 +28,8 @@ class App extends React.Component {
           <Route exact path="/" component={HubPage}/>
           
           <Route path="/Hamster_Hotel" component={HamsterHotel}/>
-          
-          
-          
-
-          
-          
-          <Route path="/Multi-Page" component={Two_Nerds}/>
           <Route path="/Puppy_Restaruant" component={Puppy_Restaruant}/>
+          <Route path="/Multi-Page" component={Two_Nerds}/>
           <Route path="/Tokay_Press/" component={TokayPressPage}/>
           
   

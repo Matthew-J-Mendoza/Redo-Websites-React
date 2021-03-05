@@ -18,9 +18,9 @@ const CarouselArray = [MainImg,Design,Care].map((img,i)=>{
 
 
 
-export const HomeC =()=>{
+export const HomeC =(props)=>{
     return(
-            <Carousel className="shadow-md carouselPad" interval={5000} >
+            <Carousel id={props.id} className="shadow-md carouselPad" interval={5000} >
   {CarouselArray}
 </Carousel>
         

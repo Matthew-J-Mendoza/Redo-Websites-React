@@ -11,10 +11,10 @@ export const MenuCardsGen = Object.entries(MenuData).map((MenuList, i) => {
                     <h2 className="montaukRegFont">{item[1].name}</h2>
                     <p className="montaukRegFont">{item[1].desc}</p>
                 </Col>
-                <Col sm={12} lg={2} className="mt-5">
+                <Col lg={12} xl={2} className="mt-5">
                 <h3 className="montaukRegFont">{item[1].price}</h3>
                 </Col>
-                <Col sm={12}>
+                <Col lg={12}>
                     <hr className="PR-hr"/>
                 </Col>
             </>
@@ -32,9 +32,11 @@ export const MenuCardsGen = Object.entries(MenuData).map((MenuList, i) => {
                             <Card.Title className="fugazeRegFont">{MenuList[1].Heading}</Card.Title>
                             <Card.Text className="montaukRegFont">
                                 {MenuList[1].Subheading}
+                        <Row className="mt-4">
+                        {Items}
+                        </Row>
                             </Card.Text>
                         </Col>
-                        {Items}
                     </Row>
 
                 </Card.Body>

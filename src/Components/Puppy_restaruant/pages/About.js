@@ -20,7 +20,7 @@ export const AboutPage = ()=>{
                     <Col sm={12} lg={5}>
                     <IMG src={SBG} width="100%" height="100%"  alt="image/AboutMain.jpg"/>
                     </Col>
-                    <Col sm={12} lg={7} className="white pt-1">
+                    <Col sm={12} lg={7} className="white pt-1 msgText">
                     <h1 className="card-title fugazTitle ">The Story Behind the Grill</h1>
                 <div className="card-text montaukF">
                     <p >Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis

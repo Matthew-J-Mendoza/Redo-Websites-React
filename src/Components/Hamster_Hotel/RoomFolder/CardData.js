@@ -12,7 +12,7 @@ export const KingRoom ={
 }
 export const BeachSuit ={
     title: "Beach Side Suite",
-    dimension: "81500 SQ FT Suite with beach view",
+    dimension: "1500 SQ FT Suite with beach view",
     list: ['• One queen size bed','• Second room with fireplace, hot tub, and blacony','• Seed bar and coffee station','•  kitchen with a refrigerator, stove, and island'],
     tag: "BeachSuit"
 }

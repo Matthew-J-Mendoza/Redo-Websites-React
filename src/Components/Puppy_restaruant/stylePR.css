@@ -124,6 +124,7 @@ About us
 }
 .white{
     background-color: white;
+    max-height: 60%;
 }
 .cardSpacing{
     padding-left: 8px;
@@ -269,8 +270,8 @@ Index and menu page
 } */
 
 .msgText{
-    background-color: white;
-    font-size: 100%;
+    
+    font-size: 170% !important;
 }
 
 @media (min-width: 1200px) {
@@ -317,4 +318,17 @@ Index and menu page
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 20%;
+    
+}
+.maxH{
+ height: 1000%;
+ max-height: 27rem;
+}
+
+.HomeText{
+    height: 10000%;
+    max-height: 50rem;
+}
+.Team-Text{
+    font-size: 140% !important;
 }

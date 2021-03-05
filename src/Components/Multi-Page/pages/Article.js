@@ -26,7 +26,7 @@ export const Articlepage = (Props) => {
                             <iframe title="Review Video" width="1903" height="806" src={Props.Media.Video} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="Article-Video "></iframe>
                         </div>
                         <div className="d-none d-lg-block">
-                        <iframe width="900" height="506" src={Props.Media.Video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe width="900" height="506" src={Props.Media.Video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="SmallIframe"></iframe>
                         </div>
                     </Col>
                     <Col sm={12} className="center mt-5" >

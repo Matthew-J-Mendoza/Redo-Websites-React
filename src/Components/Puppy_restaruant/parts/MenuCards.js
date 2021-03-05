@@ -11,7 +11,7 @@ export const MenuCardsGen = Object.entries(MenuData).map((MenuList, i) => {
                     <h2 className="montaukRegFont">{item[1].name}</h2>
                     <p className="montaukRegFont">{item[1].desc}</p>
                 </Col>
-                <Col lg={12} xl={2} className="mt-5">
+                <Col lg={12} xl={2} className="mt-1">
                 <h3 className="montaukRegFont">{item[1].price}</h3>
                 </Col>
                 <Col lg={12}>

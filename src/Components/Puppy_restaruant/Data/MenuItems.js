@@ -52,7 +52,7 @@ export const MenuData ={
         },
         GS:{
             name: "Grilled Salmon",
-            desc: "Salmon grilled in a lime butter sauce.n",
+            desc: "Salmon grilled in a lime butter sauce.",
             price: "$13.99",
         },
         GT:{

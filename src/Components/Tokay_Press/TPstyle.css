@@ -600,13 +600,18 @@ Opac
 }
 
 .messageSent {
-    color: white;
-    background-color: #293131;
-    border-color: #2A938D;
+    color: white !important;
+    background-color: #293131 !important;
+    border-color: #2A938D !important;
 }
 
 .messageSent:hover {
-    color: rgb(139, 139, 139);
+    color: rgb(139, 139, 139) !important;
+}
+.messageSent:focus{
+    color: white !important;
+    background-color: #293131 !important;
+    border-color: #2A938D !important;
 }
 
 .modal-content {

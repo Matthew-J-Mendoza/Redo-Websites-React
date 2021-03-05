@@ -253,7 +253,7 @@ Index and menu page
     font-size:100%;
 }
 .PR-hr{
-    background-color: #980051;
+    background-color: #980051 !important;
 }
 
 /* .cat-text{

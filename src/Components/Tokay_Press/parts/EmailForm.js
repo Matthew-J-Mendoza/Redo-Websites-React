@@ -24,15 +24,15 @@ export class EmailForms extends React.Component{
       }
       handleNameChange(event) {
           this.setState({NameValue: event.target.value});
-          console.log(this.state.NameValue)
+          
         }
         handleEmailChange(event) {
             this.setState({EamilValue: event.target.value});
-            console.log(this.state.EamilValue)
+            
         }
         handleMessageChange(event) {
             this.setState({MessageValue: event.target.value});
-            console.log(this.state.MessageValue.length+1)
+            
         }
         
         Submit=()=>{
@@ -45,7 +45,7 @@ export class EmailForms extends React.Component{
                     MessageValue: "",
                 })
             }
-            console.log(this.state.Name.current.value)
+            
         }
 
     render(){
